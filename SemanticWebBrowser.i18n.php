@@ -65,6 +65,22 @@ $messages['de'] = array(
 	'swb_inverse_label_default' => '$1 von',
 );
 
+/** Spanish (Español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'browsewiki' => 'Explorar el Wiki y la Web semántica',
+	'swb_desc' => 'Añade una página especial [[Special:BrowseWiki|Explorar el Wiki y la Web semántica]]',
+	'swb_browse_article' => 'Introduzca el nombre de la página para empezar la navegación semántica.',
+	'swb_browse_go' => 'Ir',
+	'swb_browse_show_incoming' => 'Mostrar las propiedades entrantes que enlazan aquí',
+	'swb_browse_hide_incoming' => 'Ocultar las propiedades entrantes que enlazan aquí',
+	'swb_browse_no_outgoing' => 'Esta página no tiene propiedades.',
+	'swb_browse_no_incoming' => 'Ninguna propiedad vincula a esta página.',
+	'swb_inverse_label_property' => 'Etiqueta de propiedad inversa',
+	'swb_inverse_label_default' => '$1 de',
+);
+
 /** French (Français)
  * @author Gomoko
  */
