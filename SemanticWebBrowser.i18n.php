@@ -174,6 +174,16 @@ $messages['mk'] = array(
 	'swb_browse_more' => '...',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'browsewiki' => 'Layari Wiki & Sesawang Semantik',
+	'swb_desc' => 'Menambahkan laman khas [[Special:BrowseWiki|Layari Wiki & Sesawang Semantik]]',
+	'swb_browse_article' => 'Masukkan nama halaman untuk memulakan pelayaran semantik.',
+	'swb_browse_go' => 'Pergi',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Saruman
