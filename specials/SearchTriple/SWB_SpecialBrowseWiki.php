@@ -149,7 +149,9 @@ class SWBSpecialBrowseWiki extends SpecialPage {
 				
 				$info = parse_url($this->articletext);
 				(!isset( $info['scheme'])  ) ? $scheme   = "" : $scheme   = $info['scheme'];
-				(!isset( $info['host'])    ) ? $host     = "" : $host     = "//".$info['host'];
+				// Info: In front of host, we had // before, but those seem not needed, any more.
+                //(!isset( $info['host'])    ) ? $host     = "" : $host     = "//".$info['host'];
+				(!isset( $info['host'])    ) ? $host     = "" : $host     = $info['host'];
 				(!isset( $info['path'])    ) ? $path     = "" : $path     = $info['path'];
 				(!isset( $info['query'])   ) ? $query    = "" : $query    = $info['query'];
 				(!isset( $info['fragment'])) ? $fragment = "" : $fragment = $info['fragment'];
@@ -321,7 +323,9 @@ class SWBSpecialBrowseWiki extends SpecialPage {
 	public static function isURI( $uri ){
 		  $info = parse_url( $uri );
 		  ( !isset( $info['scheme'] ) ) ? $scheme   = "" : $scheme   = $info['scheme'];
-		  ( !isset( $info['host']   ) ) ? $host     = "" : $host     = "//".$info['host'];
+          // Info: In front of host, we had // before, but those seem not needed, any more.
+          //(!isset( $info['host'])    ) ? $host     = "" : $host     = "//".$info['host'];
+		  ( !isset( $info['host']   ) ) ? $host     = "" : $host     = $info['host'];
 		  ( !isset( $info['path']   ) ) ? $path     = "" : $path     = $info['path'];
 		  ( !isset( $info['query']  ) ) ? $query    = "" : $query    = $info['query'];
 	      ( !isset($info['fragment']) ) ? $fragment = "" : $fragment = $info['fragment'];

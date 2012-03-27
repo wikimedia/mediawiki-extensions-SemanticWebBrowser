@@ -1,7 +1,8 @@
 <?php
 
 /**
- * @author Anna Kantorovitch and Benedikt Kämpgen
+ * @author Benedikt Kämpgen
+ * @author Anna Kantorovitch
  * @file SWB_Settings
  * @ingroup SWB
  */
@@ -19,9 +20,9 @@ $swbgIP = dirname( __FILE__ ) . '/';
 $wgExtensionCredits['semantic'][] = array(
 	'path'    => __FILE__,
 	'name'    => 'Semantic Web Browser',
-	'version' =>  '0.2',
-	'author'  =>  array( 'Benedikt Kaempgen', 'Anna Kantorovitch' ),
-	'url'     =>  'http://semantic-mediawiki.org',
+	'version' =>  '0.3',
+	'author'  =>  array( '[http://www.b-kaempgen.de Benedikt&#160;Kämpgen]', 'Anna Kantorovitch' ),
+	'url'     =>  'http://www.mediawiki.org/wiki/Extension:Semantic_Web_Browser',
 	'descriptionmsg' =>  'swb_desc'
 );
 
