@@ -145,6 +145,19 @@ $messages['ia'] = array(
 	'swb_inverse_label_default' => '$1 de',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'browsewiki' => 'Browse Wiki & Semantic Web',
+	'swb_desc' => 'Aggiunge una pagina speciale [[Special:BrowseWiki|Browse Wiki & Semantic Web]]',
+	'swb_browse_go' => 'Vai',
+	'swb_browse_no_outgoing' => 'Questa pagina non ha proprietà.',
+	'swb_browse_no_incoming' => 'Nessuna proprietà linka a questa pagina.',
+	'swb_inverse_label_property' => 'Etichetta della proprietà inversa',
+	'swb_inverse_label_default' => '$1 di',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
