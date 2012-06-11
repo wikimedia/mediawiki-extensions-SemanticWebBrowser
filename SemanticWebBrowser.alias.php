@@ -14,6 +14,11 @@ $specialPageAliases['en'] = array(
 	'BrowseWiki' => array( 'BrowseWiki' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'BrowseWiki' => array( 'تصفح_الويكي' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'BrowseWiki' => array( 'Wiki_durchsuchen', 'Wiki_browsen' ),
@@ -24,7 +29,12 @@ $specialPageAliases['gsw'] = array(
 	'BrowseWiki' => array( 'Wiki_duresueche' ),
 );
 
-/** Macedonian (Македонски) */
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'BrowseWiki' => array( '위키찾아보기' ),
+);
+
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'BrowseWiki' => array( 'ПрелистајВики' ),
 );
@@ -39,7 +49,7 @@ $specialPageAliases['nl'] = array(
 	'BrowseWiki' => array( 'WikiDoorbladeren' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'BrowseWiki' => array( '浏览维基' ),
 );
