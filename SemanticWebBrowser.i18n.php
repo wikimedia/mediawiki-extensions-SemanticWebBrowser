@@ -41,7 +41,7 @@ $messages['qqq'] = array(
 	'swb_browse_more' => 'Browse more details',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -65,7 +65,7 @@ $messages['de'] = array(
 	'swb_inverse_label_default' => '$1 von',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -81,7 +81,7 @@ $messages['es'] = array(
 	'swb_inverse_label_default' => '$1 de',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -129,7 +129,7 @@ $messages['hsb'] = array(
 	'swb_inverse_label_default' => '$1 z',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -173,7 +173,7 @@ $messages['lb'] = array(
 	'swb_inverse_label_default' => '$1 vu(n)',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -218,7 +218,7 @@ $messages['nl'] = array(
 	'swb_inverse_label_default' => '$1 van',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
@@ -241,7 +241,7 @@ $messages['ps'] = array(
 	'swb_browse_go' => 'ورځه',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -256,7 +256,7 @@ $messages['te'] = array(
 	'swb_browse_no_outgoing' => 'ఈ పేజీలో లక్షణాలేమీ లేవు.',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Linforest
  */
 $messages['zh-hans'] = array(
