@@ -161,6 +161,16 @@ $messages['it'] = array(
 	'swb_inverse_label_default' => '$1 di',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'browsewiki' => 'ウィキとセマンティック Web をブラウズ',
+	'swb_desc' => '特別ページ[[Special:BrowseWiki|ウィキとセマンティック Web をブラウズ]]を追加する',
+	'swb_browse_article' => 'セマンティックブラウズを開始するページの名前を入力してください。',
+	'swb_browse_no_outgoing' => 'このページにはプロパティはありません。',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
