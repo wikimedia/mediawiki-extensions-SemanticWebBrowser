@@ -97,7 +97,7 @@ $messages['fr'] = array(
 	'swb_inverse_label_default' => '$1 de',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -113,7 +113,7 @@ $messages['gl'] = array(
 	'swb_inverse_label_default' => '$1 de',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
