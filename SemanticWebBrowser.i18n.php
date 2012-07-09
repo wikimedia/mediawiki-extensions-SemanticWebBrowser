@@ -266,6 +266,22 @@ $messages['te'] = array(
 	'swb_browse_no_outgoing' => 'ఈ పేజీలో లక్షణాలేమీ లేవు.',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'browsewiki' => 'Pantingin-tingin ng Wiki at Semantikong Sangkasaputan',
+	'swb_desc' => 'Nagdaragdag ng isang natatanging pahinang [[Special:BrowseWiki|Pantingin-tingin ng Wiki at Semantikong Sangkasaputan]]',
+	'swb_browse_article' => 'Ipasok/ ang pangalan ng pahinang pagsisimulan ng semantikong pagtingin-tingin.',
+	'swb_browse_go' => 'Gawin',
+	'swb_browse_show_incoming' => 'ipakita ang parating na mga katangiang pag-aari na nakakawing dito',
+	'swb_browse_hide_incoming' => 'itago ang parating na mga katangiang pag-aari na nakakawing dito',
+	'swb_browse_no_outgoing' => 'Walang mga pag-aari ang pahinang ito.',
+	'swb_browse_no_incoming' => 'Walang mga pag-aaring nakakawing na patungo sa pahinang ito.',
+	'swb_inverse_label_property' => 'Ibinaligtad na tatak ng pag-aari',
+	'swb_inverse_label_default' => '$1 ng',
+);
+
 /** Simplified Chinese (‪中文（简体）‬)
  * @author Linforest
  */
