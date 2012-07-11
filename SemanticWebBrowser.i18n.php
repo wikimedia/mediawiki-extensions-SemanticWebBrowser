@@ -210,6 +210,22 @@ $messages['ms'] = array(
 	'swb_browse_go' => 'Pergi',
 );
 
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Event
+ */
+$messages['nb'] = array(
+	'browsewiki' => 'Nettlesing av Wiki & Semantisk web',
+	'swb_desc' => 'Legger til en spesialside [[Special:BrowseWiki|Nettlesing av Wiki & Semantisk Web]]',
+	'swb_browse_article' => 'Legg inn navnet på siden som semantisk nettlesing skal starte fra.',
+	'swb_browse_go' => 'Kjør',
+	'swb_browse_show_incoming' => 'vis innkommende egenskaper som lenker hit',
+	'swb_browse_hide_incoming' => 'skjul innkommende egenskaper som lenker hit',
+	'swb_browse_no_outgoing' => 'Denne siden har ingen egenskaper',
+	'swb_browse_no_incoming' => 'Ingen egenskaper lenker til denne siden.',
+	'swb_inverse_label_property' => 'Etikett for invers egenskap',
+	'swb_inverse_label_default' => '$1 av',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Saruman
