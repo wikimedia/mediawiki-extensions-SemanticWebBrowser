@@ -298,6 +298,13 @@ $messages['tl'] = array(
 	'swb_inverse_label_default' => '$1 ng',
 );
 
+/** толышә зывон (толышә зывон)
+ * @author Erdemaslancan
+ */
+$messages['tly'] = array(
+	'swb_browse_go' => 'Давард',
+);
+
 /** Simplified Chinese (‪中文（简体）‬)
  * @author Linforest
  */
