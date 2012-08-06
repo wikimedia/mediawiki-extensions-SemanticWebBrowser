@@ -296,6 +296,7 @@ $messages['tl'] = array(
 	'swb_browse_no_incoming' => 'Walang mga pag-aaring nakakawing na patungo sa pahinang ito.',
 	'swb_inverse_label_property' => 'Ibinaligtad na tatak ng pag-aari',
 	'swb_inverse_label_default' => '$1 ng',
+	'swb_browse_more' => '...',
 );
 
 /** толышә зывон (толышә зывон)
