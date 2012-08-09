@@ -267,6 +267,14 @@ $messages['ps'] = array(
 	'swb_browse_go' => 'ورځه',
 );
 
+/** Portuguese (português)
+ * @author SandroHc
+ */
+$messages['pt'] = array(
+	'swb_browse_go' => 'Ir',
+	'swb_inverse_label_default' => '$1 de',
+);
+
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
