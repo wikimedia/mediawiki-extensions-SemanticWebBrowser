@@ -81,6 +81,13 @@ $messages['es'] = array(
 	'swb_inverse_label_default' => '$1 de',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'swb_browse_go' => 'برو',
+);
+
 /** French (français)
  * @author Gomoko
  */
