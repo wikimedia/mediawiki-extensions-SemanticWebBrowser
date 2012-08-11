@@ -136,6 +136,20 @@ $messages['hsb'] = array(
 	'swb_inverse_label_default' => '$1 z',
 );
 
+/** Hungarian (magyar)
+ * @author TK-999
+ */
+$messages['hu'] = array(
+	'browsewiki' => 'A wiki és a szemantikus Web böngészése',
+	'swb_desc' => 'Létrehozza egy, [[Special:BrowseWiki|a wiki és a szemantikus Web böngészését]] szolgáló speciális lapot.',
+	'swb_browse_article' => 'Írd be a szemantikus böngészés kezdőpontjául szolgáló lap címét.',
+	'swb_browse_go' => 'Mehet',
+	'swb_browse_show_incoming' => 'Ide hivatkozó bejövő tulajdonságok megjelenítése',
+	'swb_browse_hide_incoming' => 'Ide hivatkozó bejövő tulajdonságok elrejtése',
+	'swb_browse_no_outgoing' => 'Ehhez a laphoz nem tartoznak tulajdonságok.',
+	'swb_browse_no_incoming' => 'Egy tulajdonság sem hivatkozik erre a lapra.',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
