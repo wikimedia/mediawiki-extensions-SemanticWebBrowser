@@ -192,6 +192,13 @@ $messages['ja'] = array(
 	'swb_browse_no_outgoing' => 'このページにはプロパティはありません。',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'swb_browse_go' => 'მიდი',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
