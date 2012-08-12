@@ -303,11 +303,25 @@ $messages['pt'] = array(
 	'swb_inverse_label_default' => '$1 de',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'swb_browse_go' => 'යන්න',
+);
+
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
 	'swb_browse_more' => '…',
+);
+
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'swb_browse_go' => 'செல்',
 );
 
 /** Telugu (తెలుగు)
