@@ -189,7 +189,11 @@ $messages['ja'] = array(
 	'browsewiki' => 'ウィキとセマンティック Web をブラウズ',
 	'swb_desc' => '特別ページ[[Special:BrowseWiki|ウィキとセマンティック Web をブラウズ]]を追加する',
 	'swb_browse_article' => 'セマンティックブラウズを開始するページの名前を入力してください。',
+	'swb_browse_go' => '実行',
 	'swb_browse_no_outgoing' => 'このページにはプロパティはありません。',
+	'swb_browse_no_incoming' => 'このページにリンクしているプロパティはありません。',
+	'swb_inverse_label_property' => 'プロパティラベルを反転',
+	'swb_inverse_label_default' => '$1である',
 );
 
 /** Georgian (ქართული)
