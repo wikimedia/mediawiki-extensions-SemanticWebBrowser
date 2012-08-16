@@ -104,6 +104,21 @@ $messages['fr'] = array(
 	'swb_inverse_label_default' => '$1 de',
 );
 
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'swb_browse_go' => 'Validar',
+	'swb_inverse_label_default' => '$1 de',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'swb_browse_go' => 'Gabh',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -358,6 +373,13 @@ $messages['tl'] = array(
  */
 $messages['tly'] = array(
 	'swb_browse_go' => 'Давард',
+);
+
+/** Yiddish (ייִדיש)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['yi'] = array(
+	'swb_browse_go' => 'גיין',
 );
 
 /** Simplified Chinese (‪中文（简体）‬)
