@@ -375,6 +375,13 @@ $messages['tly'] = array(
 	'swb_browse_go' => 'Давард',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'swb_browse_go' => 'جانا',
+);
+
 /** Yiddish (ייִדיש)
  * @author පසිඳු කාවින්ද
  */
