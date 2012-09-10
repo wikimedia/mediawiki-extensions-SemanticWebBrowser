@@ -324,6 +324,13 @@ $messages['pt'] = array(
 	'swb_inverse_label_default' => '$1 de',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas Blade
+ */
+$messages['pt-br'] = array(
+	'swb_browse_go' => 'Ir',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
