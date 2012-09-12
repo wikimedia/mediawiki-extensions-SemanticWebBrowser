@@ -205,11 +205,11 @@ $messages['ja'] = array(
 	'swb_desc' => '特別ページ[[Special:BrowseWiki|ウィキとセマンティック Web をブラウズ]]を追加する',
 	'swb_browse_article' => 'セマンティックブラウズを開始するページの名前を入力してください。',
 	'swb_browse_go' => '実行',
-	'swb_browse_show_incoming' => 'ここにリンクしているプロパティを表示',
-	'swb_browse_hide_incoming' => 'ここにリンクしているプロパティを隠す',
+	'swb_browse_show_incoming' => 'このページにリンクしているプロパティを表示',
+	'swb_browse_hide_incoming' => 'このページにリンクしているプロパティを隠す',
 	'swb_browse_no_outgoing' => 'このページにはプロパティはありません。',
 	'swb_browse_no_incoming' => 'このページにリンクしているプロパティはありません。',
-	'swb_inverse_label_property' => 'プロパティラベルを反転',
+	'swb_inverse_label_property' => 'プロパティのラベルを反転',
 	'swb_inverse_label_default' => '$1である',
 );
 
