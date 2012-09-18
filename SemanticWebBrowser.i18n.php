@@ -220,6 +220,23 @@ $messages['ka'] = array(
 	'swb_browse_go' => 'მიდი',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'browsewiki' => 'Em Wiki un em semantesche Web bläddere',
+	'swb_desc' => 'Deihd en Extrasigg en et Wiki: [[Special:BrowseWiki|Blädder em Wiki un em semantesche Web]].',
+	'swb_browse_article' => 'Bes esu joot, un jif dä Tittel vun dä Sigg aan, wo De met däm semantesch Bläddere aanfange wells.',
+	'swb_browse_go' => 'Lohß Jonn!',
+	'swb_browse_show_incoming' => 'zeisch de Eijeschaffte, di noh heh lengke donn',
+	'swb_browse_hide_incoming' => 'zeisch de Eijeschaffte nit aan, di noh heh lengke donn',
+	'swb_browse_no_outgoing' => 'Di Sigg hät kein Eijeschaffte.',
+	'swb_browse_no_incoming' => 'Mer han kein Eijeschaffte em Wiki, di ene Lengk noh heh dä Sigg han.',
+	'swb_inverse_label_property' => 'Dä Name för di Eijeschaff, wann dä ier Reschtung ömjedrieht weed',
+	'swb_inverse_label_default' => '$1 vun',
+	'swb_browse_more' => '&nbsp;&hellip;',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
