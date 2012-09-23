@@ -274,6 +274,12 @@ $messages['ms'] = array(
 	'swb_desc' => 'Menambahkan laman khas [[Special:BrowseWiki|Layari Wiki & Sesawang Semantik]]',
 	'swb_browse_article' => 'Masukkan nama halaman untuk memulakan pelayaran semantik.',
 	'swb_browse_go' => 'Pergi',
+	'swb_browse_show_incoming' => 'tunjukkan sifat diterima yang berpaut ke sini',
+	'swb_browse_hide_incoming' => 'sorokkan sifat diterima yang berpaut ke sini',
+	'swb_browse_no_outgoing' => 'Laman ini tiada sifat.',
+	'swb_browse_no_incoming' => 'Tiada sifat yang berpaut ke halaman ini.',
+	'swb_inverse_label_property' => 'Label sifat songsang',
+	'swb_inverse_label_default' => '$1 daripada',
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
