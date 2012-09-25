@@ -49,7 +49,7 @@ $specialPageAliases['nl'] = array(
 	'BrowseWiki' => array( 'WikiDoorbladeren' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'BrowseWiki' => array( '浏览维基' ),
 );
