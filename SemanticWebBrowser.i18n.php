@@ -208,7 +208,7 @@ $messages['ja'] = array(
 	'swb_browse_show_incoming' => 'このページにリンクしているプロパティを表示',
 	'swb_browse_hide_incoming' => 'このページにリンクしているプロパティを隠す',
 	'swb_browse_no_outgoing' => 'このページにはプロパティはありません。',
-	'swb_browse_no_incoming' => 'このページにリンクしているプロパティはありません。',
+	'swb_browse_no_incoming' => 'このページは、他のプロパティからリンクされていません。',
 	'swb_inverse_label_property' => 'プロパティのラベルを反転',
 	'swb_inverse_label_default' => '$1である',
 );
@@ -368,6 +368,11 @@ $messages['sr-ec'] = array(
 	'swb_browse_more' => '…',
 );
 
+/** Serbian (Latin script) (srpski (latinica)‎) */
+$messages['sr-el'] = array(
+	'swb_browse_more' => '…',
+);
+
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  */
@@ -434,6 +439,20 @@ $messages['zh-hans'] = array(
 	'swb_browse_no_outgoing' => '此页面没有属性。',
 	'swb_browse_no_incoming' => '没有指向此页面的属性链接。',
 	'swb_inverse_label_property' => '逆向属性标签',
+	'swb_inverse_label_default' => '的$1',
+);
+
+/** Traditional Chinese (中文（繁體）‎) */
+$messages['zh-hant'] = array(
+	'browsewiki' => '瀏覽維基與語義網',
+	'swb_desc' => '添加特殊頁面[[Special:BrowseWiki|瀏覽維基與語義網]]',
+	'swb_browse_article' => '輸入語義瀏覽的起始頁面名稱。',
+	'swb_browse_go' => '轉到',
+	'swb_browse_show_incoming' => '顯示鏈接到此處的鏈入屬性',
+	'swb_browse_hide_incoming' => '隱藏鏈接到此處的鏈入屬性',
+	'swb_browse_no_outgoing' => '此頁面沒有屬性。',
+	'swb_browse_no_incoming' => '沒有指向此頁面的屬性鏈接。',
+	'swb_inverse_label_property' => '逆向屬性標籤',
 	'swb_inverse_label_default' => '的$1',
 );
 
