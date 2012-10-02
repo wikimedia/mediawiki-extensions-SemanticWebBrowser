@@ -282,7 +282,7 @@ $messages['ms'] = array(
 	'swb_inverse_label_default' => '$1 daripada',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Event
  */
 $messages['nb'] = array(
@@ -361,7 +361,7 @@ $messages['si'] = array(
 	'swb_browse_go' => 'යන්න',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -426,7 +426,7 @@ $messages['yi'] = array(
 	'swb_browse_go' => 'גיין',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Linforest
  */
 $messages['zh-hans'] = array(
