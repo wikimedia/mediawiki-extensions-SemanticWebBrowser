@@ -368,7 +368,8 @@ $messages['sr-ec'] = array(
 	'swb_browse_more' => '…',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'swb_browse_more' => '…',
 );
@@ -442,7 +443,8 @@ $messages['zh-hans'] = array(
 	'swb_inverse_label_default' => '的$1',
 );
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）‎)
+ */
 $messages['zh-hant'] = array(
 	'browsewiki' => '瀏覽維基與語義網',
 	'swb_desc' => '添加特殊頁面[[Special:BrowseWiki|瀏覽維基與語義網]]',
@@ -455,4 +457,3 @@ $messages['zh-hant'] = array(
 	'swb_inverse_label_property' => '逆向屬性標籤',
 	'swb_inverse_label_default' => '的$1',
 );
-
