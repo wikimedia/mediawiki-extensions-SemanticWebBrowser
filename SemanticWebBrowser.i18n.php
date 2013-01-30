@@ -67,6 +67,7 @@ $messages['de'] = array(
 
 /** Spanish (español)
  * @author Armando-Martin
+ * @author Fitoschido
  */
 $messages['es'] = array(
 	'browsewiki' => 'Explorar el Wiki y la Web semántica',
@@ -76,7 +77,7 @@ $messages['es'] = array(
 	'swb_browse_show_incoming' => 'Mostrar las propiedades entrantes que enlazan aquí',
 	'swb_browse_hide_incoming' => 'Ocultar las propiedades entrantes que enlazan aquí',
 	'swb_browse_no_outgoing' => 'Esta página no tiene propiedades.',
-	'swb_browse_no_incoming' => 'Ninguna propiedad vincula a esta página.',
+	'swb_browse_no_incoming' => 'No hay propiedades que enlacen a esta página.',
 	'swb_inverse_label_property' => 'Etiqueta de propiedad inversa',
 	'swb_inverse_label_default' => '$1 de',
 );
@@ -336,6 +337,7 @@ $messages['pl'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'browsewiki' => 'ويکي او سېمانټيک جال سپړل',
 	'swb_browse_go' => 'ورځه',
 );
 
