@@ -1,3 +1,6 @@
+== SWB - migrated to Git 2013-02-04 ==
+* URI: https://gerrit.wikimedia.org/r/p/mediawiki/extensions/SemanticWebBrowser.git
+
 == SWB - commit 2012-03-27 ==
 // Info: In front of host, we had // before, but those seem not needed, any more.
 //(!isset( $info['host'])    ) ? $host     = "" : $host     = "//".$info['host'];
