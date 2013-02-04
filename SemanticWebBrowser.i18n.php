@@ -49,6 +49,13 @@ $messages['br'] = array(
 	'swb_inverse_label_default' => '$1 eus',
 );
 
+/** Catalan (català)
+ * @author Pitort
+ */
+$messages['ca'] = array(
+	'swb_inverse_label_default' => '$1 de',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
