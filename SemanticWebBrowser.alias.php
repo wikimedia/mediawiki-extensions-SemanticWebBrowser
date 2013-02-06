@@ -11,7 +11,7 @@ $specialPageAliases = array();
 
 /** English (English) */
 $specialPageAliases['en'] = array(
-	'BrowseWiki' => array( 'BrowseWiki' ),
+	'BrowseWiki' => array( 'BrowseSW' ),
 );
 
 /** Arabic (العربية) */
@@ -21,7 +21,7 @@ $specialPageAliases['ar'] = array(
 
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
-	'BrowseWiki' => array( 'Wiki_durchsuchen', 'Wiki_browsen' ),
+	'BrowseWiki' => array( 'SW_durchsuchen', 'SW_browsen' ),
 );
 
 /** Swiss German (Alemannisch) */
