@@ -21,7 +21,7 @@ $specialPageAliases['ar'] = array(
 
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
-	'BrowseWiki' => array( 'SW_durchsuchen', 'SW_browsen' ),
+	'BrowseWiki' => array( 'Wiki_durchsuchen', 'Wiki_browsen' ),
 );
 
 /** Swiss German (Alemannisch) */
