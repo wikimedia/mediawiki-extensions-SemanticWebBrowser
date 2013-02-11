@@ -77,9 +77,9 @@ $messages['de'] = array(
  * @author Fitoschido
  */
 $messages['es'] = array(
-	'browsewiki' => 'Explorar el Wiki y la Web semántica',
+	'browsewiki' => 'Explorar el wiki y la web semántica',
 	'swb_desc' => 'Añade una página especial [[Special:BrowseWiki|Explorar el Wiki y la Web semántica]]',
-	'swb_browse_article' => 'Introduzca el nombre de la página para empezar la navegación semántica.',
+	'swb_browse_article' => 'Escribe el nombre de la página para empezar la navegación semántica.',
 	'swb_browse_go' => 'Ir',
 	'swb_browse_show_incoming' => 'Mostrar las propiedades entrantes que enlazan aquí',
 	'swb_browse_hide_incoming' => 'Ocultar las propiedades entrantes que enlazan aquí',
