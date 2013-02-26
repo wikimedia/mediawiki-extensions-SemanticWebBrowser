@@ -28,12 +28,14 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Benedikt Kämpgen
  * @author SPQRobin
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'browsewiki' => 'Title of the SWB page',
 	'swb_desc' => '{{desc}}',
 	'swb_browse_article' => 'Text above "go" window',
-	'swb_browse_go' => 'Title of button "go"',
+	'swb_browse_go' => 'Title of button "go".
+{{Identical|Go}}',
 	'swb_browse_show_incoming' => 'Title of properties',
 	'swb_browse_hide_incoming' => 'Title of properties',
 	'swb_inverse_label_property' => 'Name of a special property',
