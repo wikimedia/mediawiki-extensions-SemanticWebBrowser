@@ -32,7 +32,7 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'browsewiki' => 'Title of the SWB page',
-	'swb_desc' => '{{desc}}',
+	'swb_desc' => '{{desc|name=Semantic Web Browser|url=http://www.mediawiki.org/wiki/Extension:SemanticWebBrowser}}',
 	'swb_browse_article' => 'Text above "go" window',
 	'swb_browse_go' => 'Title of button "go".
 {{Identical|Go}}',
