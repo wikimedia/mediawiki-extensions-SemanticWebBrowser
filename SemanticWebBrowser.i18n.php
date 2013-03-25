@@ -98,6 +98,13 @@ $messages['fa'] = array(
 	'swb_browse_go' => 'برو',
 );
 
+/** Finnish (suomi)
+ * @author Silvonen
+ */
+$messages['fi'] = array(
+	'swb_browse_no_outgoing' => 'Tällä sivulla ei ole ominaisuuksia.',
+);
+
 /** French (français)
  * @author Gomoko
  */
