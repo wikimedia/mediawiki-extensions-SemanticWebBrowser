@@ -31,7 +31,7 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'browsewiki' => 'Title of the SWB page',
+	'browsewiki' => '{{doc-special|BrowseWiki}}',
 	'swb_desc' => '{{desc|name=Semantic Web Browser|url=http://www.mediawiki.org/wiki/Extension:SemanticWebBrowser}}',
 	'swb_browse_article' => 'Text above "go" window',
 	'swb_browse_go' => 'Title of button "go".
