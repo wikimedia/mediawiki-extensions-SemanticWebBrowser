@@ -34,6 +34,11 @@ $specialPageAliases['ko'] = array(
 	'BrowseWiki' => array( '위키찾아보기' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$specialPageAliases['lb'] = array(
+	'BrowseWiki' => array( 'Wiki_duerchsichen' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'BrowseWiki' => array( 'ПрелистајВики' ),
