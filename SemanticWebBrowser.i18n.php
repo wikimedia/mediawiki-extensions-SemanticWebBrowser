@@ -38,6 +38,14 @@ $messages['qqq'] = array(
 {{Identical|Go}}',
 	'swb_browse_show_incoming' => 'Title of properties',
 	'swb_browse_hide_incoming' => 'Title of properties',
+	'swb_browse_no_outgoing' => 'Used in the table in [[Special:BrowseWiki]] if there are no results.
+
+See also:
+* {{msg-mw|Swb browse no incoming}}',
+	'swb_browse_no_incoming' => 'Used in the table in [[Special:BrowseWiki]] if there are no results.
+
+See also:
+* {{msg-mw|Swb browse no outgoing}}',
 	'swb_inverse_label_property' => 'Name of a special property',
 	'swb_inverse_label_default' => 'Inverse label default, $1 is a place marker',
 	'swb_browse_more' => 'Browse more details',
