@@ -396,6 +396,18 @@ $messages['pt-br'] = array(
 	'swb_browse_go' => 'Ir',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'swb_browse_go' => 'Véje',
+	'swb_browse_show_incoming' => "fà vedè le probbietà in entrate ca 'u collegane aqquà",
+	'swb_browse_hide_incoming' => "scunne le probbietà in entrate ca 'u collegane aqquà",
+	'swb_browse_no_outgoing' => 'Sta pàgene non ge tène probbietà.',
+	'swb_browse_no_incoming' => 'Nisciuna probbietà jè collegate a sta pàgene.',
+	'swb_inverse_label_default' => '$1 de',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
