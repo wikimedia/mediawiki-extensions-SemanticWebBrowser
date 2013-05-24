@@ -400,11 +400,15 @@ $messages['pt-br'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'browsewiki' => 'Sfogghie Uicchi e Web Semandiche',
+	'swb_desc' => "Aggiunge 'na pàgena speciale [[Special:BrowseWiki|Sfogghie Uicchi & Web Semandiche]]",
+	'swb_browse_article' => "Sckaffe 'u nome d'a pàgene pe accumenzà 'u sfogliamende semandiche.",
 	'swb_browse_go' => 'Véje',
 	'swb_browse_show_incoming' => "fà vedè le probbietà in entrate ca 'u collegane aqquà",
 	'swb_browse_hide_incoming' => "scunne le probbietà in entrate ca 'u collegane aqquà",
 	'swb_browse_no_outgoing' => 'Sta pàgene non ge tène probbietà.',
 	'swb_browse_no_incoming' => 'Nisciuna probbietà jè collegate a sta pàgene.',
+	'swb_inverse_label_property' => "probbietà de l'etichette a smerse",
 	'swb_inverse_label_default' => '$1 de',
 );
 
