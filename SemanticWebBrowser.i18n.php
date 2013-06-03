@@ -323,7 +323,7 @@ $messages['ms'] = array(
 	'swb_inverse_label_default' => '$1 daripada',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Event
  */
 $messages['nb'] = array(
@@ -390,6 +390,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
