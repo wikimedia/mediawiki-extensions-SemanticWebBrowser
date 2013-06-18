@@ -19,7 +19,7 @@ class SWBInfolink extends SMWInfolink {
 		return new SWBInfolink(
 			true,
 			$caption,
-			$wgContLang->getNsText( NS_SPECIAL ) . ':BrowseWiki',
+			$wgContLang->getNsText( NS_SPECIAL ) . ':BrowseSW',
 			$style,
 			array( $titleText )
 		);
