@@ -57,7 +57,7 @@ if ( $swbgToolboxBrowseSemWeb ) {
 
 function swbfShowBrowseSemWeb( $skintemplate ) {
 	if ( $skintemplate->data['isarticle'] ) {
-		$browselink = SWBInfolink::newBrowsingLink( wfMsg( 'swb_browse_semantic_web' ),
+		$browselink = SWBInfolink::newBrowsingLink( wfMsg( 'browsewiki' ),
 			$skintemplate->data['titleprefixeddbkey'], false );
 		echo '<li id="t-smwbrowselink">' . $browselink->getHTML() . '</li>';
 	}

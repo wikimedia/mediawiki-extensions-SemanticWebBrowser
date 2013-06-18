@@ -70,7 +70,7 @@ class SWBSpecialBrowseWiki extends SpecialPage {
 
 		// get the GET parameters
 		$this->articletext = $wgRequest->getVal( 'article' );
-        $this->title = $wgOut->getTitle();          
+                $this->title = $wgOut->getTitle();          
 		// no GET parameters? Then try the URL
 		if ( $this->articletext == '' ) {
 			$params = SMWInfolink::decodeParameters( $query, false );
@@ -150,7 +150,7 @@ class SWBSpecialBrowseWiki extends SpecialPage {
 				$info = parse_url($this->articletext);
 				(!isset( $info['scheme'])  ) ? $scheme   = "" : $scheme   = $info['scheme'];
 				// Info: In front of host, we had // before, but those seem not needed, any more.
-                //(!isset( $info['host'])    ) ? $host     = "" : $host     = "//".$info['host'];
+                                //(!isset( $info['host'])    ) ? $host     = "" : $host     = "//".$info['host'];
 				(!isset( $info['host'])    ) ? $host     = "" : $host     = $info['host'];
 				(!isset( $info['path'])    ) ? $path     = "" : $path     = $info['path'];
 				(!isset( $info['query'])   ) ? $query    = "" : $query    = $info['query'];
@@ -197,7 +197,8 @@ class SWBSpecialBrowseWiki extends SpecialPage {
 		$html .= $this->displaySemanticHead( $uri->getURI() );
 		if ( $this->showoutgoing ) {
 			 // should be: $data is of type SMWSemanticData
-		    $swdata = $this->getSemanticWebData( $graph, $uri->getURI() );
+                         
+                        $swdata = $this->getSemanticWebData( $graph, $uri->getURI() ); // %swData contains only DataItems
 			$html .= $this->displaySemanticWebData( $swdata, $leftside );
 			$html .= $this->displayCenter();
 		}
@@ -353,7 +354,23 @@ class SWBSpecialBrowseWiki extends SpecialPage {
 		foreach ( $theOutgoingProperties as $outProp ) {
 			$outPropResult = $this->getArrayObjects( $graph, $theResource, $outProp );
 			// now, we have the subject, the property, the object (uri/literal)
-			foreach ( $outPropResult as $outPropObject ) {
+			
+                        // replace blacklisted rdf(s) and owl properties
+                        $uri_blacklist = explode("\n", wfMessage('smw_uri_blacklist')->inContentLanguage()->text());
+                        foreach ($uri_blacklist as $uri) {
+                            $uri = trim($uri);
+                            if ($uri == mb_substr($outProp, 0, mb_strlen($uri))) { // disallowed URI!
+                                if (strcmp($uri, "http://www.w3.org/1999/02/22-rdf-syntax-ns#") == 0) {
+                                    $outProp = str_replace($uri, "rdf:", $outProp);
+                                } else if (strcmp($uri, "http://www.w3.org/2000/01/rdf-schema#") == 0) {
+                                    $outProp = str_replace($uri, "rdfs:", $outProp);
+                                } else if (strcmp($uri, "http://www.w3.org/2002/07/owl#") == 0) {
+                                    $outProp = str_replace($uri, "owl:", $outProp);
+                                }
+                            }
+                        }
+                        
+                        foreach ( $outPropResult as $outPropObject ) {
 
 				/*
 				 * The question now is, what kind of propert.
@@ -387,7 +404,7 @@ class SWBSpecialBrowseWiki extends SpecialPage {
 
 					if ( !isset( $uriPageName ) && $uriPageName == null ) {
 						// URI value
-						$dataValue = SMWDataValueFactory::newTypeIDValue( '_rur', $outPropObject["value"], $property = $dataProperty );
+						$dataValue = SMWDataValueFactory::newTypeIDValue( '_uri', $outPropObject["value"], $property = $dataProperty );
 					} else {
 						$dataValue = SMWDataValueFactory::newTypeIDValue( '_wpg', $uriPageName, $property = $dataProperty );
 					}
@@ -527,7 +544,7 @@ class SWBSpecialBrowseWiki extends SpecialPage {
 
 			// Here, we only create typical property values.
 			$dvProperty = SMWDataValueFactory::newDataItemValue( $diProperty, null );
-
+                        
 			if ( $dvProperty->isVisible() ) {
 				$dvProperty->setCaption( $this->getPropertyLabel( $dvProperty, $incoming ) );
 				$proptext = $dvProperty->getShortHTMLText( smwfGetLinker() ) . "\n";
