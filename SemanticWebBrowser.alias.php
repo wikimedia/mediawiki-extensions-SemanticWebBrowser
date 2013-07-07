@@ -49,6 +49,11 @@ $specialPageAliases['ml'] = array(
 	'BrowseWiki' => array( 'വിക്കിബ്രൗസ്ചെയ്യുക' ),
 );
 
+/** Low Saxon (Netherlands) (Nedersaksies) */
+$specialPageAliases['nds-nl'] = array(
+	'BrowseWiki' => array( 'Wiki_deurblaojen' ),
+);
+
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'BrowseWiki' => array( 'WikiDoorbladeren' ),
