@@ -31,7 +31,7 @@ $specialPageAliases['gsw'] = array(
 
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
-	'BrowseWiki' => array( '위키찾아보기' ),
+	'BrowseWiki' => array( 'SW찾아보기' ),
 );
 
 /** Luxembourgish (Lëtzebuergesch) */
