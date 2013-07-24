@@ -449,6 +449,13 @@ $messages['sr-el'] = array(
 	'swb_browse_more' => '…',
 );
 
+/** Swedish (svenska)
+ * @author Jopparn
+ */
+$messages['sv'] = array(
+	'swb_inverse_label_default' => '$1 av',
+);
+
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  */
