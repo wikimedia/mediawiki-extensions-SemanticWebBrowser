@@ -273,7 +273,7 @@ $messages['ko'] = array(
 	'swb_browse_hide_incoming' => '여기에 링크한 속성 숨기기',
 	'swb_browse_no_outgoing' => '이 문서에는 속성이 없습니다.',
 	'swb_browse_no_incoming' => '이 문서에 링크한 속성이 없습니다.',
-	'swb_inverse_label_property' => '역 속성 레이블',
+	'swb_inverse_label_property' => '속성 레이블를 반대로',
 	'swb_inverse_label_default' => '$1입니다',
 );
 
@@ -493,6 +493,22 @@ $messages['tl'] = array(
  */
 $messages['tly'] = array(
 	'swb_browse_go' => 'Давард',
+);
+
+/** Ukrainian (українська)
+ * @author Andriykopanytsia
+ */
+$messages['uk'] = array(
+	'browsewiki' => 'Перегляд вікі в семантичного вебу',
+	'swb_desc' => 'Додає спеціальну сторінку  [[Special:BrowseWiki|Перегляд вікі і семантичного вебу]]',
+	'swb_browse_article' => "Введіть ім'я сторінки, з якого почати семантичний веб-перегляд.",
+	'swb_browse_go' => 'Перейти',
+	'swb_browse_show_incoming' => 'показувати вхідні властивості, що посилаються сюди',
+	'swb_browse_hide_incoming' => 'приховати вхідні властивості, що посилаються сюди',
+	'swb_browse_no_outgoing' => 'На цій сторінці не має властивостей.',
+	'swb_browse_no_incoming' => 'Немає властивостей, які посилаються на цю сторінку.',
+	'swb_inverse_label_property' => 'Мітка оберненої властивості',
+	'swb_inverse_label_default' => '$1 з',
 );
 
 /** Urdu (اردو)
