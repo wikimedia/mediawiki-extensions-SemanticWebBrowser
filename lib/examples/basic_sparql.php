@@ -31,7 +31,7 @@
 
 <h2>Doctor Who - Series 1</h2>
 <ul>
-<?
+<?php
     $series1 = 'http://www.bbc.co.uk/programmes/b007vvcq#programme';
     $result = $sparql->query(
       "SELECT * WHERE {".

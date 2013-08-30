@@ -58,7 +58,7 @@
     </p>
 
     <p class="headers">
-    <?
+    <?php
         foreach ($response->getHeaders() as $name => $value) {
             echo "<b>$name</b>: $value<br />\n";
         }
