@@ -6,6 +6,7 @@
  * @ingroup Extensions
  * @ingroup SWBLanguage
  */
+// @codingStandardsIgnoreFile
 
 $specialPageAliases = array();
 
