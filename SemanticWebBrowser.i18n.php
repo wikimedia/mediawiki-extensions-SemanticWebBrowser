@@ -445,6 +445,14 @@ $messages['roa-tara'] = array(
 	'swb_inverse_label_default' => '$1 de',
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'swb_browse_no_outgoing' => 'У этой страницы нет свойств.',
+	'swb_inverse_label_default' => '$1 из',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
