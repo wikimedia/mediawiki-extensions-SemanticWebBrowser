@@ -557,6 +557,7 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Linforest
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'browsewiki' => '浏览维基与语义网',
@@ -565,7 +566,7 @@ $messages['zh-hans'] = array(
 	'swb_browse_go' => '转到',
 	'swb_browse_show_incoming' => '显示链接到此处的链入属性',
 	'swb_browse_hide_incoming' => '隐藏链接到此处的链入属性',
-	'swb_browse_no_outgoing' => '此页面没有属性。',
+	'swb_browse_no_outgoing' => '该页面没有属性。',
 	'swb_browse_no_incoming' => '没有指向此页面的属性链接。',
 	'swb_inverse_label_property' => '逆向属性标签',
 	'swb_inverse_label_default' => '的$1',
