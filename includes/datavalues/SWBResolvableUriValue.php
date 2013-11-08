@@ -83,7 +83,7 @@ class SWBResolvableUriValue extends SMWDataValue {
 
 		// Now create the URI data item:
 		try {
-			SWBSpecialBrowseWiki:: debug( $this->m_typeid, "typeid" );
+			SWBSpecialBrowseSW:: debug( $this->m_typeid, "typeid" );
 			$this->m_dataitem = new SMWDIUri( $scheme, $hierpart, $query, $fragment, $this->m_typeid );
 		} catch ( SMWDataItemException $e ) {
 			$this->addError( wfMsgForContent( 'smw_baduri', $this->m_wikitext ) );
@@ -107,7 +107,7 @@ class SWBResolvableUriValue extends SMWDataValue {
 	 * @return boolean
 	 */
 	protected function loadDataItem( SMWDataItem $dataItem ) {
-		SWBSpecialBrowseWiki:: debug( "loadItem" );
+		SWBSpecialBrowseSW:: debug( "loadItem" );
 		if ( $dataItem->getDIType() == SMWDataItem::TYPE_URI ) {
 			$this->m_dataitem = $dataItem;
 			if ( $this->m_mode == SMW_URI_MODE_EMAIL ) {
@@ -125,7 +125,7 @@ class SWBResolvableUriValue extends SMWDataValue {
 	}
 
 	public function getShortWikiText( $linked = null ) {
-		SWBSpecialBrowseWiki:: debug( "shortWiki" );
+		SWBSpecialBrowseSW:: debug( "shortWiki" );
 		$url = $this->getURL();
 		if ( ( $linked === null ) || ( $linked === false ) || ( $this->m_outformat == '-' ) || ( $url == '' ) || ( $this->m_caption == '' ) ) {
 			return $this->m_caption;
@@ -135,7 +135,7 @@ class SWBResolvableUriValue extends SMWDataValue {
 	}
 
 	public function getShortHTMLText( $linker = null ) {
-		SWBSpecialBrowseWiki:: debug( "shortHTML" );
+		SWBSpecialBrowseSW:: debug( "shortHTML" );
 		$url = $this->getURL();
 		if ( ( $linker === null ) || ( !$this->isValid() ) || ( $this->m_outformat == '-' ) || ( $url == '' ) || ( $this->m_caption == '' ) ) {
 			return $this->m_caption;
@@ -145,7 +145,7 @@ class SWBResolvableUriValue extends SMWDataValue {
 	}
 
 	public function getLongWikiText( $linked = null ) {
-		SWBSpecialBrowseWiki:: debug( "longWiki" );
+		SWBSpecialBrowseSW:: debug( "longWiki" );
 		if ( !$this->isValid() ) {
 			return $this->getErrorText();
 		}
@@ -158,7 +158,7 @@ class SWBResolvableUriValue extends SMWDataValue {
 	}
 
 	public function getLongHTMLText( $linker = null ) {
-		SWBSpecialBrowseWiki:: debug( "longHTML" );
+		SWBSpecialBrowseSW:: debug( "longHTML" );
 		if ( !$this->isValid() ) {
 			return $this->getErrorText();
 		}
@@ -175,7 +175,7 @@ class SWBResolvableUriValue extends SMWDataValue {
 	}
 
 	public function getURI() {
-		SWBSpecialBrowseWiki:: debug( "uri" );
+		SWBSpecialBrowseSW:: debug( "uri" );
 		return $this->m_dataitem->getURI();
 	}
 
@@ -192,7 +192,7 @@ class SWBResolvableUriValue extends SMWDataValue {
 	 * @return string
 	 */
 	public function getURL() {
-		SWBSpecialBrowseWiki:: debug( "getURL" );
+		SWBSpecialBrowseSW:: debug( "getURL" );
 		global $wgUrlProtocols;
 		foreach ( $wgUrlProtocols as $prot ) {
 			if ( ( $prot == $this->m_dataitem->getScheme() . ':' ) || ( $prot == $this->m_dataitem->getScheme() . '://' ) ) {

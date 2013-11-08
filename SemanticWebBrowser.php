@@ -1,7 +1,7 @@
 <?php
 /**
  * Main entry point for the Semantic Web Browser extension.
- * @author Anna Kantorovitch and Benedikt Kämpgen
+ * @author Anna Kantorovitch, Benedikt Kämpgen and Andreas Adler
  * @file SemanticWebBrowser.php
  * @ingroup SWB
  */
@@ -22,9 +22,9 @@ $wgExtensionMessagesFiles['SemanticWebBrowser'] = $swbgIP . 'SemanticWebBrowser.
 $wgExtensionMessagesFiles['SemanticWebBrowserAlias']  = $swbgIP . 'SemanticWebBrowser.alias.php';
 
 // Special Page for Browse Wiki
-$wgAutoloadClasses['SWBSpecialBrowseWiki']      = $swbgIP . 'specials/SearchTriple/SWB_SpecialBrowseWiki.php';
-$wgSpecialPages['BrowseWiki']                   = 'SWBSpecialBrowseWiki';
-$wgSpecialPageGroups['BrowseWiki']              = 'smw_group';
+$wgAutoloadClasses['SWBSpecialBrowseSW']      = $swbgIP . 'specials/SearchTriple/SWB_SpecialBrowseSW.php';
+$wgSpecialPages['BrowseSW']                   = 'SWBSpecialBrowseSW';
+$wgSpecialPageGroups['BrowseSW']              = 'smw_group';
 
 // InfoLink
 $wgAutoloadClasses['SWBInfolink']               = $swbgIP . 'includes/SWB_Infolink.php';
@@ -57,7 +57,7 @@ if ( $swbgToolboxBrowseSemWeb ) {
 
 function swbfShowBrowseSemWeb( $skintemplate ) {
 	if ( $skintemplate->data['isarticle'] ) {
-		$browselink = SWBInfolink::newBrowsingLink( wfMsg( 'browsewiki' ),
+		$browselink = SWBInfolink::newBrowsingLink( wfMessage( 'browsesw' )->text(),
 			$skintemplate->data['titleprefixeddbkey'], false );
 		echo '<li id="t-smwbrowselink">' . $browselink->getHTML() . '</li>';
 	}

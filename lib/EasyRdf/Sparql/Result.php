@@ -5,7 +5,7 @@
  *
  * LICENSE
  *
- * Copyright (c) 2009-2011 Nicholas J Humfrey.  All rights reserved.
+ * Copyright (c) 2009-2012 Nicholas J Humfrey.  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -31,7 +31,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * @package    EasyRdf
- * @copyright  Copyright (c) 2009-2011 Nicholas J Humfrey
+ * @copyright  Copyright (c) 2009-2012 Nicholas J Humfrey
  * @license    http://www.opensource.org/licenses/bsd-license.php
  * @version    $Id$
  */
@@ -40,7 +40,7 @@
  * Class for returned for SPARQL SELECT and ASK query responses.
  *
  * @package    EasyRdf
- * @copyright  Copyright (c) 2009-2011 Nicholas J Humfrey
+ * @copyright  Copyright (c) 2009-2012 Nicholas J Humfrey
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
 class EasyRdf_Sparql_Result extends ArrayIterator
@@ -52,13 +52,17 @@ class EasyRdf_Sparql_Result extends ArrayIterator
     private $_distinct = null;
     private $_fields = array();
 
+    /** A constant for the SPARQL Query Results XML Format namespace */
+    const SPARQL_XML_RESULTS_NS = 'http://www.w3.org/2005/sparql-results#';
+
     /** Create a new SPARQL Result object
      *
      * You should not normally need to create a SPARQL result
      * object directly - it will be constructed automatically
      * for you by EasyRdf_Sparql_Client.
      *
-     * @param string $uri The address of the SPARQL Endpoint
+     * @param string $data      The SPARQL result body
+     * @param string $mimeType  The MIME type of the result
      */
     public function __construct($data, $mimeType)
     {
@@ -241,17 +245,17 @@ class EasyRdf_Sparql_Result extends ArrayIterator
     {
         switch($data['type']) {
           case 'bnode':
-            return new EasyRdf_Resource('_:'.$data['value']);
+              return new EasyRdf_Resource('_:'.$data['value']);
           case 'uri':
-            return new EasyRdf_Resource($data['value']);
+              return new EasyRdf_Resource($data['value']);
           case 'literal':
           case 'typed-literal':
-            return EasyRdf_Literal::create($data);
+              return EasyRdf_Literal::create($data);
           default:
-            throw new EasyRdf_Exception(
-                "Failed to parse SPARQL Query Results format, unknown term type: ".
-                $data['type']
-            );
+              throw new EasyRdf_Exception(
+                  "Failed to parse SPARQL Query Results format, unknown term type: ".
+                  $data['type']
+              );
         }
     }
 
@@ -263,7 +267,16 @@ class EasyRdf_Sparql_Result extends ArrayIterator
     {
         $doc = new DOMDocument();
         $doc->loadXML($data);
-        # FIXME: check for SPARQL top-level element
+
+        # Check for valid root node.
+        if ($doc->hasChildNodes() == false or
+            $doc->childNodes->length != 1 or
+            $doc->firstChild->nodeName != 'sparql' or
+            $doc->firstChild->namespaceURI != self::SPARQL_XML_RESULTS_NS) {
+            throw new EasyRdf_Exception(
+                "Incorrect root node in SPARQL XML Query Results format"
+            );
+        }
 
         # Is it the result of an ASK query?
         $boolean = $doc->getElementsByTagName('boolean');
@@ -293,14 +306,19 @@ class EasyRdf_Sparql_Result extends ArrayIterator
                 $t = new stdClass();
                 foreach ($bindings as $binding) {
                     $key = $binding->getAttribute('name');
-                    $term = $binding->firstChild;
-                    $data = array(
-                        'type' => $term->nodeName,
-                        'lang' => $term->getAttribute('lang'),
-                        'datatype' => $term->getAttribute('datatype'),
-                        'value' => $term->nodeValue
-                    );
-                    $t->$key = $this->_newTerm($data);
+                    foreach ($binding->childNodes as $node) {
+                        if ($node->nodeType != XML_ELEMENT_NODE)
+                            continue;
+                        $t->$key = $this->_newTerm(
+                            array(
+                                'type' => $node->nodeName,
+                                'value' => $node->nodeValue,
+                                'lang' => $node->getAttribute('xml:lang'),
+                                'datatype' => $node->getAttribute('datatype')
+                            )
+                        );
+                        break;
+                    }
                 }
                 $this[] = $t;
             }

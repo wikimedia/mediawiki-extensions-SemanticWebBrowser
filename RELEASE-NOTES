@@ -1,6 +1,11 @@
-== Version 0.2 ==
-2011-10-05
+== Version 0.4 ==
+* SpecialPage renamed to "BrowseSW"
+* More robust structure and better error handling
 
+== Version 0.3 ==
+* Visualizing and hiding of incoming links
+
+== Version 0.2 ==
 * Basis functionality of browsing implemented: Special Page BrowseWiki.
 * Committed to SVN
 

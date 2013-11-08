@@ -1,3 +1,20 @@
+== SWB- 2013_11_07 ==
+* error message is more precise
+
+== SWB- 2013_10_21 ==
+* new method loadGraphAndGetHtml ($uri_array, $leftside) to improve code readability
+* try-catch inserted for loading the graph for robust use
+* robust use for URIs which shall be browsed containing special characters. Therefore inserted following code: count( $this->subject->getErrors())==0)
+
+== SWB- 2013_10_15 ==
+* Upgrade to EasyRDF 0.7.2
+* Bug fixed: funtion getInternalMapping working properly again
+
+== SWB- 2013_10_07 ==
+* wfMsg (deprecated) replaced by wfMessage
+* Changed the name of the special page from "BrowseWiki" to "BrowseSW"
+* Bug fixed: special page is shown in the list of all special pages again
+
 == SWB - migrated to Git 2013-02-04 ==
 * URI: https://gerrit.wikimedia.org/r/p/mediawiki/extensions/SemanticWebBrowser.git
 

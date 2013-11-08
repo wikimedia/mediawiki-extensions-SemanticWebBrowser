@@ -4,7 +4,7 @@
  *
  * @file SWB_Infolink
  * @ingroup SWB
- * @author Anna Kantorovitch and Benedikt Kämpgen
+ * @author Anna Kantorovitch, Benedikt Kämpgen and Andreas Adler
  *
  */
 class SWBInfolink extends SMWInfolink {
