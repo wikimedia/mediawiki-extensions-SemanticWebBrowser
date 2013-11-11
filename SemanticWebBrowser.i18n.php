@@ -233,7 +233,7 @@ $messages['ia'] = array(
  */
 $messages['it'] = array(
 	'browsesw' => 'Browse Wiki & Semantic Web',
-	'swb_desc' => 'Aggiunge una pagina speciale [[Special:BrowseSW|Browse Wiki & Semantic Web]]', # Fuzzy
+	'swb_desc' => 'Aggiunge una pagina speciale [[Special:BrowseSW|Browse Wiki & Semantic Web]]',
 	'swb_browse_article' => "Inserire il nome della pagina da cui iniziare l'esplorazione semantica.",
 	'swb_browse_go' => 'Vai',
 	'swb_browse_show_incoming' => 'mostra le proprietà in arrivo che collegano qui',
@@ -242,6 +242,7 @@ $messages['it'] = array(
 	'swb_browse_no_incoming' => 'Nessuna proprietà linka a questa pagina.',
 	'swb_inverse_label_property' => 'Etichetta della proprietà inversa',
 	'swb_inverse_label_default' => '$1 di',
+	'swb_browse_error' => 'I dati semantici non possono essere caricati con il Semantic Web Browser a causa di un errore:',
 );
 
 /** Japanese (日本語)
