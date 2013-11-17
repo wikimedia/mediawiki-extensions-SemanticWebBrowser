@@ -547,11 +547,12 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Linforest
+ * @author Liuxinyu970226
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'browsesw' => '浏览维基与语义网',
-	'swb_desc' => '添加特殊页面[[Special:BrowseSW|浏览维基与语义网]]', # Fuzzy
+	'browsesw' => '浏览Wiki与语义网络',
+	'swb_desc' => '添加特殊页面[[Special:BrowseSW|浏览Wiki与语义网络]]',
 	'swb_browse_article' => '输入语义浏览的起始页面名称。',
 	'swb_browse_go' => '转到',
 	'swb_browse_show_incoming' => '显示链接到此处的链入属性',
@@ -560,6 +561,7 @@ $messages['zh-hans'] = array(
 	'swb_browse_no_incoming' => '没有指向此页面的属性链接。',
 	'swb_inverse_label_property' => '逆向属性标签',
 	'swb_inverse_label_default' => '的$1',
+	'swb_browse_error' => '由于一个错误语义数据无法与语义web浏览器加载：',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
