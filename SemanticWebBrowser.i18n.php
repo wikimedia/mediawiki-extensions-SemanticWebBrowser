@@ -58,7 +58,7 @@ See also:
  */
 $messages['ast'] = array(
 	'browsesw' => 'Navegar pela wiki y la web semántica',
-	'swb_desc' => 'Añade una páxina especial [[Special:BrowseSW|Navegar pela Wiki y la Web semántica]]', # Fuzzy
+	'swb_desc' => 'Añade una páxina especial [[Special:BrowseSW|Navegar pela Wiki y la Web semántica]]',
 	'swb_browse_article' => "Escriba'l nome de la páxina dende la qu'empezar la navegación semántica.",
 	'swb_browse_go' => 'Dir',
 	'swb_browse_show_incoming' => "ver les propiedaes entrantes qu'enllacen equí",
@@ -67,6 +67,7 @@ $messages['ast'] = array(
 	'swb_browse_no_incoming' => "Nun hai propiedaes qu'enllacen a esta páxina.",
 	'swb_inverse_label_property' => 'Etiqueta de propiedá inversa',
 	'swb_inverse_label_default' => '$1 de',
+	'swb_browse_error' => 'Nun pudieron cargase los datos semánticos col Navegador Web Semánticu por un error:',
 );
 
 /** Breton (brezhoneg)
