@@ -52,6 +52,23 @@ See also:
 	'swb_browse_more' => 'Browse more details',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'browsesw' => 'Navegar pela wiki y la web semántica',
+	'swb_desc' => 'Añade una páxina especial [[Special:BrowseSW|Navegar pela Wiki y la Web semántica]]',
+	'swb_browse_article' => "Escriba'l nome de la páxina dende la qu'empezar la navegación semántica.",
+	'swb_browse_go' => 'Dir',
+	'swb_browse_show_incoming' => "ver les propiedaes entrantes qu'enllacen equí",
+	'swb_browse_hide_incoming' => "tapecer les propiedaes entrantes qu'enllacen equí",
+	'swb_browse_no_outgoing' => 'Esta páxina nun tien propiedaes.',
+	'swb_browse_no_incoming' => "Nun hai propiedaes qu'enllacen a esta páxina.",
+	'swb_inverse_label_property' => 'Etiqueta de propiedá inversa',
+	'swb_inverse_label_default' => '$1 de',
+	'swb_browse_error' => 'Nun pudieron cargase los datos semánticos col Navegador Web Semánticu por un error:',
+);
+
 /** Breton (brezhoneg)
  * @author Y-M D
  */
@@ -81,7 +98,7 @@ $messages['de'] = array(
 	'swb_browse_no_incoming' => 'Keine Attribute verlinken auf diese Seite.',
 	'swb_inverse_label_property' => 'Bezeichnung des inversen Attributs',
 	'swb_inverse_label_default' => '$1 von',
-	'swb_browse_error'			 => 'Semantische Informationen konnten aufgrund eines Fehlers des Semantic Web Browser nicht geladen werden:'
+	'swb_browse_error' => 'Semantische Informationen konnten aufgrund eines Fehlers des Semantic Web Browser nicht geladen werden:',
 );
 
 /** Spanish (español)
@@ -117,6 +134,7 @@ $messages['fi'] = array(
 
 /** French (français)
  * @author Gomoko
+ * @author Jean-Frédéric
  */
 $messages['fr'] = array(
 	'browsesw' => 'Naviguer dans le wiki & le web sémantique',
@@ -129,6 +147,7 @@ $messages['fr'] = array(
 	'swb_browse_no_incoming' => 'Aucune propriété ne pointe vers cette page.',
 	'swb_inverse_label_property' => 'Label de la propriété inverse',
 	'swb_inverse_label_default' => '$1 de',
+	'swb_browse_error' => 'Les données sémantiques n’ont pu être chargées avec le Navigateur Web Sémantique en raison d’une erreur :',
 );
 
 /** Franco-Provençal (arpetan)
@@ -160,6 +179,7 @@ $messages['gl'] = array(
 	'swb_browse_no_incoming' => 'Ningunha propiedade liga con esta páxina.',
 	'swb_inverse_label_property' => 'Etiqueta da propiedade inversa',
 	'swb_inverse_label_default' => '$1 de',
+	'swb_browse_error' => 'Os datos semánticos non se puideron cargar co navegador web semántico debido a un erro:',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -252,7 +272,7 @@ $messages['ka'] = array(
  */
 $messages['ko'] = array(
 	'browsesw' => '위키와 시맨틱 웹 찾아보기',
-	'swb_desc' => '[[Special:BrowseSW|위키와 시맨틱 웹 찾아보기]] 특수 문서를 추가합니다',
+	'swb_desc' => '[[Special:BrowseSW|위키와 시맨틱 웹 찾아보기]] 특수 문서를 추가합니다', # Fuzzy
 	'swb_browse_article' => '시맨틱 찾아보기를 시작하려면 문서의 이름을 입력하세요.',
 	'swb_browse_go' => '가기',
 	'swb_browse_show_incoming' => '여기에 링크한 속성 보기',
@@ -490,6 +510,7 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Linforest
+ * @author Liuxinyu970226
  */
 $messages['zh-hans'] = array(
 	'browsesw' => '浏览维基与语义网',
@@ -502,6 +523,7 @@ $messages['zh-hans'] = array(
 	'swb_browse_no_incoming' => '没有指向此页面的属性链接。',
 	'swb_inverse_label_property' => '逆向属性标签',
 	'swb_inverse_label_default' => '的$1',
+	'swb_browse_error' => '由于一个错误语义数据无法与语义web浏览器加载：',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
