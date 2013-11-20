@@ -50,24 +50,6 @@ See also:
 	'swb_inverse_label_property' => 'Name of a special property',
 	'swb_inverse_label_default' => 'Inverse label default, $1 is a place marker',
 	'swb_browse_more' => 'Browse more details',
-	'swb_browse_error' => 'Unused at this time.',
-);
-
-/** Asturian (asturianu)
- * @author Xuacu
- */
-$messages['ast'] = array(
-	'browsesw' => 'Navegar pela wiki y la web semántica',
-	'swb_desc' => 'Añade una páxina especial [[Special:BrowseSW|Navegar pela Wiki y la Web semántica]]',
-	'swb_browse_article' => "Escriba'l nome de la páxina dende la qu'empezar la navegación semántica.",
-	'swb_browse_go' => 'Dir',
-	'swb_browse_show_incoming' => "ver les propiedaes entrantes qu'enllacen equí",
-	'swb_browse_hide_incoming' => "tapecer les propiedaes entrantes qu'enllacen equí",
-	'swb_browse_no_outgoing' => 'Esta páxina nun tien propiedaes.',
-	'swb_browse_no_incoming' => "Nun hai propiedaes qu'enllacen a esta páxina.",
-	'swb_inverse_label_property' => 'Etiqueta de propiedá inversa',
-	'swb_inverse_label_default' => '$1 de',
-	'swb_browse_error' => 'Nun pudieron cargase los datos semánticos col Navegador Web Semánticu por un error:',
 );
 
 /** Breton (brezhoneg)
@@ -87,11 +69,10 @@ $messages['ca'] = array(
 
 /** German (Deutsch)
  * @author Kghbln
- * @author Metalhead64
  */
 $messages['de'] = array(
 	'browsesw' => 'Das Wiki sowie das semantische Web browsen',
-	'swb_desc' => 'Ergänzt eine [[Special:BrowseSW|Spezialseite]] zum Durchsuchen des Wikis sowie des semantischen Webs',
+	'swb_desc' => 'Ergänzt eine [[Special:BrowseSW|Spezialseite]] zum Browsen des Wikis sowie des semantischen Webs',
 	'swb_browse_article' => 'Bitte den Namen einer Seite angeben, um mit dem Browsen zu beginnen.',
 	'swb_browse_go' => 'Los',
 	'swb_browse_show_incoming' => 'zeige Attribute die hierhin verlinken',
@@ -100,7 +81,7 @@ $messages['de'] = array(
 	'swb_browse_no_incoming' => 'Keine Attribute verlinken auf diese Seite.',
 	'swb_inverse_label_property' => 'Bezeichnung des inversen Attributs',
 	'swb_inverse_label_default' => '$1 von',
-	'swb_browse_error' => 'Semantische Informationen konnten aufgrund eines Fehlers des Semantic Web Browser nicht geladen werden:',
+	'swb_browse_error'			 => 'Semantische Informationen konnten aufgrund eines Fehlers des Semantic Web Browser nicht geladen werden:'
 );
 
 /** Spanish (español)
@@ -109,7 +90,7 @@ $messages['de'] = array(
  */
 $messages['es'] = array(
 	'browsesw' => 'Explorar el wiki y la web semántica',
-	'swb_desc' => 'Añade una página especial [[Special:BrowseSW|Explorar el Wiki y la Web semántica]]', # Fuzzy
+	'swb_desc' => 'Añade una página especial [[Special:BrowseSW|Explorar el Wiki y la Web semántica]]',
 	'swb_browse_article' => 'Escribe el nombre de la página para empezar la navegación semántica.',
 	'swb_browse_go' => 'Ir',
 	'swb_browse_show_incoming' => 'Mostrar las propiedades entrantes que enlazan aquí',
@@ -136,11 +117,10 @@ $messages['fi'] = array(
 
 /** French (français)
  * @author Gomoko
- * @author Jean-Frédéric
  */
 $messages['fr'] = array(
 	'browsesw' => 'Naviguer dans le wiki & le web sémantique',
-	'swb_desc' => 'Ajoute une page spéciale [[Special:BrowseSW|Naviguer dans le wiki & le web sémantique]]',
+	'swb_desc' => 'Ajouter une page spéciale [[Special:BrowseSW|Naviguer dans le wiki & le web sémantique]]',
 	'swb_browse_article' => 'Entrez le nom de la page à partir de laquelle commencer la navigation sémantique.',
 	'swb_browse_go' => 'Valider',
 	'swb_browse_show_incoming' => "afficher les propriétés d'entrée qui pointent ici",
@@ -149,7 +129,6 @@ $messages['fr'] = array(
 	'swb_browse_no_incoming' => 'Aucune propriété ne pointe vers cette page.',
 	'swb_inverse_label_property' => 'Label de la propriété inverse',
 	'swb_inverse_label_default' => '$1 de',
-	'swb_browse_error' => 'Les données sémantiques n’ont pu être chargées avec le Navigateur Web Sémantique en raison d’une erreur :',
 );
 
 /** Franco-Provençal (arpetan)
@@ -171,8 +150,8 @@ $messages['ga'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'browsesw' => 'Explorar o wiki e a web semántica',
-	'swb_desc' => 'Engade unha páxina especial denominada [[Special:BrowseSW|Explorar o wiki e a web semántica]]',
+	'browsesw' => 'Explorar o wiki e web semántica',
+	'swb_desc' => 'Engade unha páxina especial denominada [[Special:BrowseSW|Explorar o wiki e web semántica]]',
 	'swb_browse_article' => 'Insira o nome da páxina para comezar a navegación semántica.',
 	'swb_browse_go' => 'Ir',
 	'swb_browse_show_incoming' => 'mostrar as propiedades entrantes que ligan cara a aquí',
@@ -181,7 +160,6 @@ $messages['gl'] = array(
 	'swb_browse_no_incoming' => 'Ningunha propiedade liga con esta páxina.',
 	'swb_inverse_label_property' => 'Etiqueta da propiedade inversa',
 	'swb_inverse_label_default' => '$1 de',
-	'swb_browse_error' => 'Os datos semánticos non se puideron cargar co navegador web semántico debido a un erro:',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -189,7 +167,7 @@ $messages['gl'] = array(
  */
 $messages['hsb'] = array(
 	'browsesw' => 'Wiki a semantisku syć přepytać',
-	'swb_desc' => 'Přidawa specialnu stronu [[Special:BrowseSW|Wiki a semantisku syć přepytać]]', # Fuzzy
+	'swb_desc' => 'Přidawa specialnu stronu [[Special:BrowseSW|Wiki a semantisku syć přepytać]]',
 	'swb_browse_article' => 'Zapodaj mjeno strony, wot kotrejež ma so semantiske přehladowanje započeć.',
 	'swb_browse_go' => 'Pytać',
 	'swb_browse_show_incoming' => 'dochadźace kajkosće pokazać, kotrež sem wotkazuja',
@@ -205,7 +183,7 @@ $messages['hsb'] = array(
  */
 $messages['hu'] = array(
 	'browsesw' => 'A wiki és a szemantikus Web böngészése',
-	'swb_desc' => 'Létrehozza egy, [[Special:BrowseSW|a wiki és a szemantikus Web böngészését]] szolgáló speciális lapot.', # Fuzzy
+	'swb_desc' => 'Létrehozza egy, [[Special:BrowseSW|a wiki és a szemantikus Web böngészését]] szolgáló speciális lapot.',
 	'swb_browse_article' => 'Írd be a szemantikus böngészés kezdőpontjául szolgáló lap címét.',
 	'swb_browse_go' => 'Mehet',
 	'swb_browse_show_incoming' => 'Ide hivatkozó bejövő tulajdonságok megjelenítése',
@@ -219,7 +197,7 @@ $messages['hu'] = array(
  */
 $messages['ia'] = array(
 	'browsesw' => 'Navigar in wiki & web semantic',
-	'swb_desc' => 'Adde un pagina special [[Special:BrowseSW|Navigar in wiki & web semantic]]', # Fuzzy
+	'swb_desc' => 'Adde un pagina special [[Special:BrowseSW|Navigar in wiki & web semantic]]',
 	'swb_browse_article' => 'Entra le nomine del pagina ab le qual tu vole initiar le exploration semantic.',
 	'swb_browse_go' => 'Va',
 	'swb_browse_show_incoming' => 'monstrar le proprietates de entrata con ligamines verso hic',
@@ -244,7 +222,6 @@ $messages['it'] = array(
 	'swb_browse_no_incoming' => 'Nessuna proprietà linka a questa pagina.',
 	'swb_inverse_label_property' => 'Etichetta della proprietà inversa',
 	'swb_inverse_label_default' => '$1 di',
-	'swb_browse_error' => 'I dati semantici non possono essere caricati con il Semantic Web Browser a causa di un errore:',
 );
 
 /** Japanese (日本語)
@@ -261,7 +238,6 @@ $messages['ja'] = array(
 	'swb_browse_no_incoming' => 'このページは、他のプロパティからリンクされていません。',
 	'swb_inverse_label_property' => 'プロパティのラベルを反転',
 	'swb_inverse_label_default' => '$1である',
-	'swb_browse_error' => 'エラーが発生したため、セマンティックWebブラウザーで意味的データを読み込めませんでした:',
 );
 
 /** Georgian (ქართული)
@@ -276,14 +252,14 @@ $messages['ka'] = array(
  */
 $messages['ko'] = array(
 	'browsesw' => '위키와 시맨틱 웹 찾아보기',
-	'swb_desc' => '[[Special:BrowseSW|위키와 시맨틱 웹 찾아보기]] 특수 문서를 추가합니다', # Fuzzy
+	'swb_desc' => '[[Special:BrowseSW|위키와 시맨틱 웹 찾아보기]] 특수 문서를 추가합니다',
 	'swb_browse_article' => '시맨틱 찾아보기를 시작하려면 문서의 이름을 입력하세요.',
 	'swb_browse_go' => '가기',
 	'swb_browse_show_incoming' => '여기에 링크한 속성 보기',
 	'swb_browse_hide_incoming' => '여기에 링크한 속성 숨기기',
 	'swb_browse_no_outgoing' => '이 문서에는 속성이 없습니다.',
 	'swb_browse_no_incoming' => '이 문서에 링크한 속성이 없습니다.',
-	'swb_inverse_label_property' => '속성 레이블를 반대로',
+	'swb_inverse_label_property' => '역 속성 레이블',
 	'swb_inverse_label_default' => '$1입니다',
 );
 
@@ -292,7 +268,7 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'browsesw' => 'Em Wiki un em semantesche Web bläddere',
-	'swb_desc' => 'Deihd en Extrasigg en et Wiki: [[Special:BrowseSW|Blädder em Wiki un em semantesche Web]].', # Fuzzy
+	'swb_desc' => 'Deihd en Extrasigg en et Wiki: [[Special:BrowseSW|Blädder em Wiki un em semantesche Web]].',
 	'swb_browse_article' => 'Bes esu joot, un jif dä Tittel vun dä Sigg aan, wo De met däm semantesch Bläddere aanfange wells.',
 	'swb_browse_go' => 'Lohß Jonn!',
 	'swb_browse_show_incoming' => 'zeisch de Eijeschaffte, di noh heh lengke donn',
@@ -309,7 +285,7 @@ $messages['ksh'] = array(
  */
 $messages['lb'] = array(
 	'browsesw' => "Duerch d'Wiki an de semantesche Spaweck browsen",
-	'swb_desc' => "Setzt eng Spezialsäit [[Special:BrowseSW|Duerch d'Wiki an de semantesche Spaweck browsen]] derbäi", # Fuzzy
+	'swb_desc' => "Setzt eng Spezialsäit [[Special:BrowseSW|Duerch d'Wiki an de semantesche Spaweck browsen]] derbäi",
 	'swb_browse_go' => 'Lass',
 	'swb_browse_no_outgoing' => 'Dës Säit huet keng Eegeschaften.',
 	'swb_browse_no_incoming' => 'Et linke keng Eegeschaften op dës Säit.',
@@ -331,7 +307,6 @@ $messages['mk'] = array(
 	'swb_inverse_label_property' => 'Обратен наслов на својството',
 	'swb_inverse_label_default' => '$1 од',
 	'swb_browse_more' => '...',
-	'swb_browse_error' => 'Не можев да ги вчитам семантичките податоци во Семантичкиот прелистувач поради грешка:',
 );
 
 /** Malay (Bahasa Melayu)
@@ -339,7 +314,7 @@ $messages['mk'] = array(
  */
 $messages['ms'] = array(
 	'browsesw' => 'Layari Wiki & Sesawang Semantik',
-	'swb_desc' => 'Menambahkan laman khas [[Special:BrowseSW|Layari Wiki & Sesawang Semantik]]', # Fuzzy
+	'swb_desc' => 'Menambahkan laman khas [[Special:BrowseSW|Layari Wiki & Sesawang Semantik]]',
 	'swb_browse_article' => 'Masukkan nama halaman untuk memulakan pelayaran semantik.',
 	'swb_browse_go' => 'Pergi',
 	'swb_browse_show_incoming' => 'tunjukkan sifat diterima yang berpaut ke sini',
@@ -355,7 +330,7 @@ $messages['ms'] = array(
  */
 $messages['nb'] = array(
 	'browsesw' => 'Nettlesing av Wiki & Semantisk web',
-	'swb_desc' => 'Legger til en spesialside [[Special:BrowseSW|Nettlesing av Wiki & Semantisk Web]]', # Fuzzy
+	'swb_desc' => 'Legger til en spesialside [[Special:BrowseSW|Nettlesing av Wiki & Semantisk Web]]',
 	'swb_browse_article' => 'Legg inn navnet på siden som semantisk nettlesing skal starte fra.',
 	'swb_browse_go' => 'Kjør',
 	'swb_browse_show_incoming' => 'vis innkommende egenskaper som lenker hit',
@@ -373,7 +348,7 @@ $messages['nb'] = array(
  */
 $messages['nl'] = array(
 	'browsesw' => 'Blader door Wiki en Semantisch Web',
-	'swb_desc' => 'Voegt een speciale pagina [[Special:BrowseSW|wiki en semantisch web doorbladeren]] toe', # Fuzzy
+	'swb_desc' => 'Voegt een speciale pagina [[Special:BrowseSW|wiki en semantisch web doorbladeren]] toe',
 	'swb_browse_article' => 'Voer de naam in van de pagina vanwaar u met semantisch bladeren wilt beginnen.',
 	'swb_browse_go' => 'OK',
 	'swb_browse_show_incoming' => 'eigenschappen die hierheen verwijzen weergeven',
@@ -384,28 +359,12 @@ $messages['nl'] = array(
 	'swb_inverse_label_default' => '$1 van',
 );
 
-/** Occitan (occitan)
- * @author Cedric31
- */
-$messages['oc'] = array(
-	'browsesw' => 'Navigar dins lo wiki & lo web semantic',
-	'swb_desc' => 'Apondre una pagina especiala [[Special:BrowseSW|Navigar dins lo wiki & lo web semantic]]', # Fuzzy
-	'swb_browse_article' => 'Picatz lo nom de la pagina a partir de la quala volètz començar la navigacion.',
-	'swb_browse_go' => 'Validar',
-	'swb_browse_show_incoming' => "afichar las proprietats d'entradas que puntan aicí",
-	'swb_browse_hide_incoming' => "amagar las proprietats d'entradas que puntan aicí",
-	'swb_browse_no_outgoing' => 'Aquesta pagina a pas cap de proprietat.',
-	'swb_browse_no_incoming' => 'Cap de proprietat punta pas cap a aquesta pagina.',
-	'swb_inverse_label_property' => 'Labèl de la proprietat invèrsa',
-	'swb_inverse_label_default' => '$1 de',
-);
-
 /** Polish (polski)
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
 	'browsesw' => 'Przeglądaj wiki & sieć semantyczną',
-	'swb_desc' => 'Dodaje specjalną stronę [[Special:BrowseSW|Przeglądaj wiki & sieć semantyczną]]', # Fuzzy
+	'swb_desc' => 'Dodaje specjalną stronę [[Special:BrowseSW|Przeglądaj wiki & sieć semantyczną]]',
 	'swb_browse_article' => 'Wpisz nazwę artykułu, od którego chcesz rozpocząć przeglądanie semantyczne.',
 	'swb_browse_go' => 'Przejdź',
 	'swb_browse_show_incoming' => 'pokaż właściwości przychodzące łączące tutaj',
@@ -445,7 +404,7 @@ $messages['pt-br'] = array(
  */
 $messages['roa-tara'] = array(
 	'browsesw' => 'Sfogghie Uicchi e Web Semandiche',
-	'swb_desc' => "Aggiunge 'na pàgena speciale [[Special:BrowseSW|Sfogghie Uicchi & Web Semandiche]]", # Fuzzy
+	'swb_desc' => "Aggiunge 'na pàgena speciale [[Special:BrowseSW|Sfogghie Uicchi & Web Semandiche]]",
 	'swb_browse_article' => "Sckaffe 'u nome d'a pàgene pe accumenzà 'u sfogliamende semandiche.",
 	'swb_browse_go' => 'Véje',
 	'swb_browse_show_incoming' => "fà vedè le probbietà in entrate ca 'u collegane aqquà",
@@ -496,7 +455,7 @@ $messages['te'] = array(
  */
 $messages['tl'] = array(
 	'browsesw' => 'Pantingin-tingin ng Wiki at Semantikong Sangkasaputan',
-	'swb_desc' => 'Nagdaragdag ng isang natatanging pahinang [[Special:BrowseSW|Pantingin-tingin ng Wiki at Semantikong Sangkasaputan]]', # Fuzzy
+	'swb_desc' => 'Nagdaragdag ng isang natatanging pahinang [[Special:BrowseSW|Pantingin-tingin ng Wiki at Semantikong Sangkasaputan]]',
 	'swb_browse_article' => 'Ipasok/ ang pangalan ng pahinang pagsisimulan ng semantikong pagtingin-tingin.',
 	'swb_browse_go' => 'Gawin',
 	'swb_browse_show_incoming' => 'ipakita ang parating na mga katangiang pag-aari na nakakawing dito',
@@ -515,23 +474,6 @@ $messages['tly'] = array(
 	'swb_browse_go' => 'Давард',
 );
 
-/** Ukrainian (українська)
- * @author Andriykopanytsia
- */
-$messages['uk'] = array(
-	'browsesw' => 'Перегляд вікі в семантичного вебу',
-	'swb_desc' => 'Додає спеціальну сторінку  [[Special:BrowseSW|Перегляд вікі і семантичного вебу]]',
-	'swb_browse_article' => "Введіть ім'я сторінки, з якого почати семантичний веб-перегляд.",
-	'swb_browse_go' => 'Перейти',
-	'swb_browse_show_incoming' => 'показувати вхідні властивості, що посилаються сюди',
-	'swb_browse_hide_incoming' => 'приховати вхідні властивості, що посилаються сюди',
-	'swb_browse_no_outgoing' => 'На цій сторінці не має властивостей.',
-	'swb_browse_no_incoming' => 'Немає властивостей, які посилаються на цю сторінку.',
-	'swb_inverse_label_property' => 'Мітка оберненої властивості',
-	'swb_inverse_label_default' => '$1 з',
-	'swb_browse_error' => 'Семантичні дані не можуть бути завантажені з використанням семантичного веб-переглядача через помилку:',
-);
-
 /** Urdu (اردو)
  * @author පසිඳු කාවින්ද
  */
@@ -548,28 +490,25 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Linforest
- * @author Liuxinyu970226
- * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'browsesw' => '浏览Wiki与语义网络',
-	'swb_desc' => '添加特殊页面[[Special:BrowseSW|浏览Wiki与语义网络]]',
+	'browsesw' => '浏览维基与语义网',
+	'swb_desc' => '添加特殊页面[[Special:BrowseSW|浏览维基与语义网]]',
 	'swb_browse_article' => '输入语义浏览的起始页面名称。',
 	'swb_browse_go' => '转到',
 	'swb_browse_show_incoming' => '显示链接到此处的链入属性',
 	'swb_browse_hide_incoming' => '隐藏链接到此处的链入属性',
-	'swb_browse_no_outgoing' => '该页面没有属性。',
+	'swb_browse_no_outgoing' => '此页面没有属性。',
 	'swb_browse_no_incoming' => '没有指向此页面的属性链接。',
 	'swb_inverse_label_property' => '逆向属性标签',
 	'swb_inverse_label_default' => '的$1',
-	'swb_browse_error' => '由于一个错误语义数据无法与语义web浏览器加载：',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
  */
 $messages['zh-hant'] = array(
 	'browsesw' => '瀏覽維基與語義網',
-	'swb_desc' => '添加特殊頁面[[Special:BrowseSW|瀏覽維基與語義網]]', # Fuzzy
+	'swb_desc' => '添加特殊頁面[[Special:BrowseSW|瀏覽維基與語義網]]',
 	'swb_browse_article' => '輸入語義瀏覽的起始頁面名稱。',
 	'swb_browse_go' => '轉到',
 	'swb_browse_show_incoming' => '顯示鏈接到此處的鏈入屬性',

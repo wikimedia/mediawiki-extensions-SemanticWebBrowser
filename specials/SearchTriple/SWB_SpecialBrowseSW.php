@@ -74,7 +74,6 @@ class SWBSpecialBrowseSW extends SpecialPage {
 		}
 		
 		$this->subject = SMWDataValueFactory::newTypeIDValue( '_wpg', $this->articletext );	
-		
 		$offsettext = $wgRequest->getVal( 'offset' );
 		$this->offset = ( is_null( $offsettext )) ? 0 : intval( $offsettext );
 		
@@ -154,7 +153,8 @@ class SWBSpecialBrowseSW extends SpecialPage {
 			if (empty($arr_equi_values)) {
 				
 				
-				$info = parse_url($this->articletext);
+				// we have to use the articletext because it will include underscores
+				$info = parse_url ($this->articletext );
 				
 				(!isset( $info['scheme'])  ) ? $scheme   = "" : $scheme   = $info['scheme'];
 				// Info: In front of host, we had // before, but those seem not needed, any more.
@@ -274,7 +274,9 @@ class SWBSpecialBrowseSW extends SpecialPage {
 			list( $indata, $more ) = $this->getSemanticWebInData( $graph, $uri );
 			global $smwgBrowseShowInverse;
 			if ( !$smwgBrowseShowInverse ) $leftside = !$leftside;
-			$html .= $this->displaySemanticWebData( $indata, $leftside, true );		
+			// formerly subsequent code line used
+			//$html .= $this->displaySemanticWebData( $indata, $leftside, true );
+			$html .= $this->displaySemanticWebData( $indata, $leftside );		
 			$html .= $this->displayBottom( $more );
 			// We need to switch browse inverse, again
 			$leftside = !$leftside;
@@ -305,7 +307,31 @@ class SWBSpecialBrowseSW extends SpecialPage {
 		//get each triple with subject, property, object . All are strings
 		foreach ( $triples as $triple ) {
 			list( $subject, $property, $object ) = $triple;
-			$propertyPageName = $this->getInternalMapping( $property );
+			
+			// $this->debug ($subject);
+			
+			// replace blacklisted rdf(s) and owl properties
+			$uri_blacklist = explode("\n", wfMessage('smw_uri_blacklist')->inContentLanguage()->text());
+			
+			foreach ($uri_blacklist as $uri) {
+
+				$uri = trim($uri);
+				if ($uri == mb_substr($property, 0, mb_strlen($uri))) { // disallowed URI!						
+
+					if (strcmp($uri, "http://www.w3.org/1999/02/22-rdf-syntax-ns#") == 0) {
+						$property= str_replace($uri, "rdf:", $property);
+					} 
+					else if (strcmp($uri, "http://www.w3.org/2000/01/rdf-schema#") == 0) {
+						$property = str_replace($uri, "rdfs:", $property);
+					} 
+					else if (strcmp($uri, "http://www.w3.org/2002/07/owl#") == 0) {
+						$property = str_replace($uri, "owl:", $property);
+					}
+				}
+			}
+
+			$propertyPageName = $this->getInternalMapping( $property );			
+			
 			$dataProperty = null;
 			if( !isset($propertyPageName) || $propertyPageName == null){
 				$dataProperty = SMWDIProperty::newFromUserLabel( $property );
@@ -314,15 +340,26 @@ class SWBSpecialBrowseSW extends SpecialPage {
 				$dataProperty = SMWDIProperty::newFromUserLabel( $propertyPageName );
 			}
 			
+			
 			$subjectPageName = $this->getInternalMapping( $subject );
 			$wikipage = null;
 			if( !isset( $subjectPageName ) || $subjectPageName == null){
-				$wikipage = new SMWDIWikiPage( $subject, NS_MAIN, '');
+				// formerly subsequent code line used
+				// $wikipage = new SMWDIWikiPage( $subject, NS_MAIN, '');
+				$wikipage = SMWDataValueFactory::newTypeIDValue( '_uri', $subject, $dataProperty );
+				
 			}else{
-				$wikipage = new SMWDIWikiPage( $subjectPageName, NS_MAIN, '');
+				// formerly subsequent code line used
+				// $wikipage = new SMWDIWikiPage( $subjectPageName, NS_MAIN, '');
+				$wikipage = SMWDataValueFactory::newTypeIDValue( '_wpg', $subjectPageName, $dataProperty );				
 			}
 			
-			$indata->addPropertyObjectValue( $dataProperty, $wikipage );
+			// formerly subsequent code line used
+			// $indata->addPropertyObjectValue( $dataProperty, $wikipage);
+			
+			if( !( get_class( $wikipage->getDataItem() ) == "SMWDIError" ) ){
+					$indata->addPropertyObjectValue( $dataProperty, $wikipage->getDataItem() );
+			}	
 		}
 		return array( $indata, $more );
 	}
@@ -368,7 +405,9 @@ class SWBSpecialBrowseSW extends SpecialPage {
 						foreach( $values as $object ){
 							if( $this->isURI( $object['value'] ) ){
 								if( $sObject==null || $object['value'] == $sObject ){
-									$arr_triples[] = array( $subject, $property, $object['value'] );				         	    
+									$arr_triples[] = array( $subject, $property, $object['value'] );
+
+									
 								}
 							}	 
 						}
@@ -448,6 +487,8 @@ class SWBSpecialBrowseSW extends SpecialPage {
 					* Otherwise, we need to invent a new page with the URI as name
 					*/
 				
+				// $this->debug($outPropObject["value"]);
+				
 				$uriPageName = $this->getInternalMapping( $outProp );
 				$dataProperty = null;
 				if ( !isset( $uriPageName ) || $uriPageName == null) {
@@ -473,7 +514,7 @@ class SWBSpecialBrowseSW extends SpecialPage {
 						* just use this page.
 						*/
 					$uriPageName = $this->getInternalMapping( $outPropObject["value"] );
-
+					
 					if ( !isset( $uriPageName ) && $uriPageName == null ) {
 						// URI value
 						$dataValue = SMWDataValueFactory::newTypeIDValue( '_uri', $outPropObject["value"], $dataProperty );
@@ -526,7 +567,8 @@ class SWBSpecialBrowseSW extends SpecialPage {
 		$mappings = array();
 		foreach( $results as $result ) {
 			//$mappings[] = $result->getWikiValue();
-			$mappings[] = $result->getTitle()->getText();
+			$mappings[] = $result->getTitle()->getFullText();
+			
 		}
 		if ( count( $mappings ) === 0) return null;
 		return $mappings[0]; // TODO Only returns one. There never should be more than one.
@@ -625,6 +667,7 @@ class SWBSpecialBrowseSW extends SpecialPage {
 		$diProperties = $data->getProperties();
 		$noresult = true;
 		foreach ( $diProperties as $diProperty ) {
+		
 			$dvProperty = SMWDataValueFactory::newDataItemValue( $diProperty, null );
 			
 			if ( $dvProperty->isVisible() ) {
@@ -638,8 +681,18 @@ class SWBSpecialBrowseSW extends SpecialPage {
 				continue; // skip this line
 			}
 
-			$head  = "<th>" . $proptext . "</th>\n";
-
+			
+			$label = $this->getPropertyLabel( $dvProperty, $incoming );
+			
+			// blacklisted URIs are replaced in method getSemanticWebData. 
+			// In case of replacement, they shall not be linked to pages but shown as strings
+			if ((0 === strpos($label, 'rdf:')) || (0 === strpos($label, 'rdfs:')) || (0 === strpos($label, 'owl:'))){
+				$head  = "<th>" . $label . "</th>\n";
+			}
+			else {
+				$head  = "<th>" . $proptext . "</th>\n";
+			}
+			
 			$body  = "<td>\n";
 
 			$values = $data->getPropertyValues( $diProperty );
@@ -865,7 +918,6 @@ class SWBSpecialBrowseSW extends SpecialPage {
 		"<tr class=\"smwb-title\"><td colspan=\"2\">\n" .
 		$this->subject->getLongHTMLText( smwfGetLinker() ) . "\n" .
 		"</td></tr>\n</table>\n";
-
 		return $html;
 	}
 	

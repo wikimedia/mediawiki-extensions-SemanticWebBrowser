@@ -1,3 +1,9 @@
+== SWB- 2013_11_11 ==
+* bug fixed: Wiki Namespace of a resource (e.g. Category) is displayed correctly if used as equivalent URI
+* blacklisted URIs are shown as strings without being linked to a page in the Wiki
+* outgoing properties are checked if they are blacklisted and replaced if applicable
+* bux fixed: URIs containing an underscore can be browsed
+
 == SWB- 2013_11_07 ==
 * error message is more precise
 
