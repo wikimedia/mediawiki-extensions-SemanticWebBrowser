@@ -435,6 +435,23 @@ $messages['roa-tara'] = array(
 	'swb_inverse_label_default' => '$1 de',
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'browsesw' => 'Просмотр Вики и Семантической сети',
+	'swb_desc' => 'Дополняет спецстраницу [[Special:BrowseSW|Просмотр Вики и Семантической сети]]',
+	'swb_browse_article' => 'Введите имя страницы, с которой надо начать семантический просмотр.',
+	'swb_browse_go' => 'Перейти',
+	'swb_browse_show_incoming' => 'показать входящие свойства, ссылающиеся сюда',
+	'swb_browse_hide_incoming' => 'скрыть входящие свойства, ссылающиеся сюда',
+	'swb_browse_no_outgoing' => 'У этой страницы нет свойств.',
+	'swb_browse_no_incoming' => 'Нет свойств, ссылающихся на эту страницу.',
+	'swb_inverse_label_property' => 'Инвертировать метку свойства',
+	'swb_inverse_label_default' => '$1 из',
+	'swb_browse_error' => 'Семантические данные не могут быть загружены с помощью семантического веб-браузера из-за ошибки:',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
