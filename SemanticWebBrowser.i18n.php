@@ -169,8 +169,8 @@ $messages['ga'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'browsesw' => 'Explorar o wiki e web semántica',
-	'swb_desc' => 'Engade unha páxina especial denominada [[Special:BrowseSW|Explorar o wiki e web semántica]]',
+	'browsesw' => 'Explorar o wiki e a web semántica',
+	'swb_desc' => 'Engade unha páxina especial denominada [[Special:BrowseSW|Explorar o wiki e a web semántica]]',
 	'swb_browse_article' => 'Insira o nome da páxina para comezar a navegación semántica.',
 	'swb_browse_go' => 'Ir',
 	'swb_browse_show_incoming' => 'mostrar as propiedades entrantes que ligan cara a aquí',
