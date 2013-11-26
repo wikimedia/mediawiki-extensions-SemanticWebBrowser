@@ -6,6 +6,12 @@
  * @ingroup SWB
  */
 
+// ask if we are being called directly
+if ( !defined( 'MEDIAWIKI' ) ) {
+        die( 'Not an entry point.' );
+}
+
+// load settings file
 require_once dirname( __FILE__ ) . '/SWB_Settings.php';
 
 /**
