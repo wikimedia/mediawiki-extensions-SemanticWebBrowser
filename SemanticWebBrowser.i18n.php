@@ -381,6 +381,7 @@ $messages['nl'] = array(
 	'swb_browse_no_incoming' => 'Er verwijzen geen eigenschappen naar deze pagina.',
 	'swb_inverse_label_property' => 'Tegenovergesteld eigenschapslabel',
 	'swb_inverse_label_default' => '$1 van',
+	'swb_browse_error' => 'Semantische gegevens konden niet gelaten worden met Semantic Web Browser vanwege een fout:',
 );
 
 /** Occitan (occitan)
