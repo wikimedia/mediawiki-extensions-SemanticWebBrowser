@@ -1,3 +1,6 @@
+== SWB- 2013_12_16 ==
+* bug fixed: mapping from predicate to Property-page works properly now
+
 == SWB- 2013_11_11 ==
 * bug fixed: Wiki Namespace of a resource (e.g. Category) is displayed correctly if used as equivalent URI
 * blacklisted URIs are shown as strings without being linked to a page in the Wiki

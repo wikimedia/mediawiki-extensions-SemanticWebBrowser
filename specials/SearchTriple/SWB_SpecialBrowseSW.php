@@ -332,12 +332,18 @@ class SWBSpecialBrowseSW extends SpecialPage {
 
 			$propertyPageName = $this->getInternalMapping( $property );			
 			
+			
 			$dataProperty = null;
-			if( !isset($propertyPageName) || $propertyPageName == null){
+			if( !isset($propertyPageName) || $propertyPageName == null || !strpos("Property:",$propertyPageName )===0){
+	
 				$dataProperty = SMWDIProperty::newFromUserLabel( $property );
-				//$dataProperty=new SMWDIProperty( $property, false);
-			}else{
-				$dataProperty = SMWDIProperty::newFromUserLabel( $propertyPageName );
+				
+			}
+				
+			else{
+				//the namespace has to be removed before creating a new SMWDIProperty		
+				$pageNameWithoutNamespace = str_replace ("Property:","",$propertyPageName);
+				$dataProperty = SMWDIProperty::newFromUserLabel( $pageNameWithoutNamespace);
 			}
 			
 			
@@ -491,7 +497,7 @@ class SWBSpecialBrowseSW extends SpecialPage {
 				
 				$uriPageName = $this->getInternalMapping( $outProp );
 				$dataProperty = null;
-				if ( !isset( $uriPageName ) || $uriPageName == null) {
+				if (!isset( $uriPageName ) || $uriPageName == null || !strpos("Property:",$uriPageName )===0) {
 					// There is no, we create a new property page
 					/*
 						* TODO: maybe register new property type that can display the property more
@@ -499,8 +505,12 @@ class SWBSpecialBrowseSW extends SpecialPage {
 						*/
 					$dataProperty = SMWDIProperty::newFromUserLabel( $outProp );
 				} 
-				else {
-					$dataProperty = SMWDIProperty::newFromUserLabel( $uriPageName );
+				
+				
+				else {					
+					//the namespace has to be removed before creating a new SMWDIProperty
+					$pageNameWithoutNamespace = str_replace ("Property:","",$uriPageName);
+					$dataProperty = SMWDIProperty::newFromUserLabel( $pageNameWithoutNamespace );
 				}
 
 
