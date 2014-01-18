@@ -272,11 +272,12 @@ $messages['ka'] = array(
 );
 
 /** Korean (한국어)
+ * @author Priviet
  * @author 아라
  */
 $messages['ko'] = array(
 	'browsesw' => '위키와 시맨틱 웹 찾아보기',
-	'swb_desc' => '[[Special:BrowseSW|위키와 시맨틱 웹 찾아보기]] 특수 문서를 추가합니다', # Fuzzy
+	'swb_desc' => '[[Special:BrowseSW|위키와 시맨틱 웹 찾아보기]] 특수 문서를 추가',
 	'swb_browse_article' => '시맨틱 찾아보기를 시작하려면 문서의 이름을 입력하세요.',
 	'swb_browse_go' => '가기',
 	'swb_browse_show_incoming' => '여기에 링크한 속성 보기',
