@@ -447,7 +447,7 @@ $messages['pt-br'] = array(
  */
 $messages['roa-tara'] = array(
 	'browsesw' => 'Sfogghie Uicchi e Web Semandiche',
-	'swb_desc' => "Aggiunge 'na pàgena speciale [[Special:BrowseSW|Sfogghie Uicchi & Web Semandiche]]", # Fuzzy
+	'swb_desc' => "Aggiunge 'na pàgena speciale [[Special:BrowseSW|Sfogghie Uicchi & Web Semandiche]]",
 	'swb_browse_article' => "Sckaffe 'u nome d'a pàgene pe accumenzà 'u sfogliamende semandiche.",
 	'swb_browse_go' => 'Véje',
 	'swb_browse_show_incoming' => "fà vedè le probbietà in entrate ca 'u collegane aqquà",
@@ -456,6 +456,7 @@ $messages['roa-tara'] = array(
 	'swb_browse_no_incoming' => 'Nisciuna probbietà jè collegate a sta pàgene.',
 	'swb_inverse_label_property' => "probbietà de l'etichette a smerse",
 	'swb_inverse_label_default' => '$1 de',
+	'swb_browse_error' => "'U date semandiche non ge pò essere carecate cu 'u Browser Web Semandiche ca ha date 'n'errore:",
 );
 
 /** Russian (русский)
