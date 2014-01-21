@@ -286,6 +286,7 @@ $messages['ko'] = array(
 	'swb_browse_no_incoming' => '이 문서에 링크한 속성이 없습니다.',
 	'swb_inverse_label_property' => '역 속성 레이블',
 	'swb_inverse_label_default' => '$1입니다',
+	'swb_browse_error' => '오류로 인해 시맨틱 데이터를 시맨틱 웹 브라우저에서 불러올 수 없습니다:',
 );
 
 /** Colognian (Ripoarisch)
