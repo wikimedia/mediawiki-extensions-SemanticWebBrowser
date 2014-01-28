@@ -120,10 +120,16 @@ $messages['es'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'browsesw' => 'جستجوس ویکی و وب معنایی',
 	'swb_browse_go' => 'برو',
+	'swb_browse_no_outgoing' => 'این صفحه هیچ ویژگی ندارد.',
+	'swb_browse_no_incoming' => 'هبچ ویژگی به این صفحه متصل نیست.',
+	'swb_inverse_label_property' => 'برچسب ویژگی معکوس',
+	'swb_inverse_label_default' => '$1 از',
 );
 
 /** Finnish (suomi)
