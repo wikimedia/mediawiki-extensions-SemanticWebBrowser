@@ -89,9 +89,9 @@ $messages['ca'] = array(
  * @author Kghbln
  */
 $messages['de'] = array(
-	'browsesw' => 'Das Wiki sowie das semantische Web browsen',
-	'swb_desc' => 'Ergänzt eine [[Special:BrowseSW|Spezialseite]] zum Browsen des Wikis sowie des semantischen Webs',
-	'swb_browse_article' => 'Bitte den Namen einer Seite angeben, um mit dem Browsen zu beginnen.',
+	'browsesw' => 'Das Wiki sowie das Semantische Web durchsuchen',
+	'swb_desc' => 'Ergänzt eine [[Special:BrowseSW|Spezialseite]] zum Durchsuchen des Wikis sowie des Semantischen Webs',
+	'swb_browse_article' => 'Bitte den Namen einer Seite angeben, um mit dem Suchen zu beginnen.',
 	'swb_browse_go' => 'Los',
 	'swb_browse_show_incoming' => 'zeige Attribute die hierhin verlinken',
 	'swb_browse_hide_incoming' => 'verstecke Attribute die hierhin verlinken',
@@ -99,7 +99,7 @@ $messages['de'] = array(
 	'swb_browse_no_incoming' => 'Keine Attribute verlinken auf diese Seite.',
 	'swb_inverse_label_property' => 'Bezeichnung des inversen Attributs',
 	'swb_inverse_label_default' => '$1 von',
-	'swb_browse_error' => 'Semantische Informationen konnten aufgrund eines Fehlers des Semantic Web Browser nicht geladen werden:',
+	'swb_browse_error' => 'Die semantische Informationen konnten aufgrund eines Fehlers des „Semantic Web Browsers“ nicht geladen werden:',
 );
 
 /** Spanish (español)
