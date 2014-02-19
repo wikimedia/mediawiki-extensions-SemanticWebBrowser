@@ -17,7 +17,12 @@ $specialPageAliases['en'] = array(
 
 /** Arabic (العربية) */
 $specialPageAliases['ar'] = array(
-	'BrowseSW' => array( 'تصفح_الويكي' ),
+	'BrowseSW' => array( 'تصفح_سو', 'تصفح_ويب_دلالي' ),
+);
+
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'BrowseSW' => array( 'تصفح_سو', 'تصفح_ويب_سيمانتيك' ),
 );
 
 /** German (Deutsch) */
@@ -57,5 +62,5 @@ $specialPageAliases['nl'] = array(
 
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
-	'BrowseSW' => array( '浏览维基' ),
+	'BrowseSW' => array( '浏览语义网' ),
 );
