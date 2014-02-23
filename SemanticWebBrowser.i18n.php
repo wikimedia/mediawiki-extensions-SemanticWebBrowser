@@ -85,6 +85,13 @@ $messages['ca'] = array(
 	'swb_inverse_label_default' => '$1 de',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'swb_inverse_label_default' => '$1 чура',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
