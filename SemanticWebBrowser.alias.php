@@ -64,3 +64,8 @@ $specialPageAliases['nl'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'BrowseSW' => array( '浏览语义网' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'BrowseSW' => array( '瀏覽Semantic_Web' ),
+);
