@@ -128,6 +128,7 @@ $messages['es'] = array(
 
 /** Persian (فارسی)
  * @author Armin1392
+ * @author Ebraminio
  * @author Mjbmr
  */
 $messages['fa'] = array(
@@ -136,7 +137,7 @@ $messages['fa'] = array(
 	'swb_browse_article' => 'نام صفحه‌ را برای شروع مرورگر معنایی، وارد کنید.',
 	'swb_browse_go' => 'برو',
 	'swb_browse_show_incoming' => 'نمایش خاصیت‌های ورودی که در اینجا لینک می‌شوند',
-	'swb_browse_hide_incoming' => 'پنهان کردن خاصیت‌های ورودی که در اینجا لینک می‌شوند',
+	'swb_browse_hide_incoming' => 'پنهان‌کردن خاصیت‌های ورودی که در اینجا پیوند می‌شوند',
 	'swb_browse_no_outgoing' => 'این صفحه هیچ ویژگی ندارد.',
 	'swb_browse_no_incoming' => 'هبچ ویژگی به این صفحه متصل نیست.',
 	'swb_inverse_label_property' => 'برچسب ویژگی معکوس',
