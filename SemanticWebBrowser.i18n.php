@@ -424,10 +424,11 @@ $messages['oc'] = array(
 
 /** Polish (polski)
  * @author BeginaFelicysym
+ * @author Chrumps
  */
 $messages['pl'] = array(
-	'browsesw' => 'Przeglądaj wiki & sieć semantyczną',
-	'swb_desc' => 'Dodaje specjalną stronę [[Special:BrowseSW|Przeglądaj wiki & sieć semantyczną]]', # Fuzzy
+	'browsesw' => 'Przeglądaj wiki i sieć semantyczną',
+	'swb_desc' => 'Dodaje stronę specjalną [[Special:BrowseSW|Przeglądaj wiki i sieć semantyczną]]',
 	'swb_browse_article' => 'Wpisz nazwę artykułu, od którego chcesz rozpocząć przeglądanie semantyczne.',
 	'swb_browse_go' => 'Przejdź',
 	'swb_browse_show_incoming' => 'pokaż właściwości przychodzące łączące tutaj',
@@ -436,6 +437,7 @@ $messages['pl'] = array(
 	'swb_browse_no_incoming' => 'Żadne własności nie linkują do tej strony.',
 	'swb_inverse_label_property' => 'Etykieta odwrotnej własności',
 	'swb_inverse_label_default' => '$1 z',
+	'swb_browse_error' => 'Semantyczne dane nie mogły zostać załadowane za pomocą semantycznej przeglądarki internetowej z powodu błędu:',
 );
 
 /** Pashto (پښتو)
