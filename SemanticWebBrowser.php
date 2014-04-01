@@ -22,8 +22,9 @@ require_once dirname( __FILE__ ) . '/SWB_Settings.php';
 global $swbgToolboxBrowseSemWeb, $wgHooks, $wgAutoloadClasses, $swbgIP,
        $wgFooterIcons, $wgExtensionFunctions, $wgSpecialPageGroups,
        $wgExtensionMessagesFiles, $wgSpecialPages,
-       $smwgNamespace, $wgServer, $wgAPIModules;
+       $smwgNamespace, $wgServer, $wgAPIModules, $wgMessagesDir;
 
+$wgMessagesDirs['SemanticWebBrowser'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['SemanticWebBrowser'] = $swbgIP . 'SemanticWebBrowser.i18n.php';
 $wgExtensionMessagesFiles['SemanticWebBrowserAlias']  = $swbgIP . 'SemanticWebBrowser.alias.php';
 

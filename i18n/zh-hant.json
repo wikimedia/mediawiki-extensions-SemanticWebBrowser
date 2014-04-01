@@ -1,0 +1,15 @@
+{
+    "@metadata": {
+        "authors": []
+    },
+    "browsesw": "瀏覽維基與語義網",
+    "swb_desc": "添加特殊頁面[[Special:BrowseSW|瀏覽維基與語義網]]",
+    "swb_browse_article": "輸入語義瀏覽的起始頁面名稱。",
+    "swb_browse_go": "轉到",
+    "swb_browse_show_incoming": "顯示鏈接到此處的鏈入屬性",
+    "swb_browse_hide_incoming": "隱藏鏈接到此處的鏈入屬性",
+    "swb_browse_no_outgoing": "此頁面沒有屬性。",
+    "swb_browse_no_incoming": "沒有指向此頁面的屬性鏈接。",
+    "swb_inverse_label_property": "逆向屬性標籤",
+    "swb_inverse_label_default": "的$1"
+}
