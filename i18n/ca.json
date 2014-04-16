@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Pitort"
-        ]
-    },
-    "swb_inverse_label_default": "$1 de"
+	"@metadata": {
+		"authors": [
+			"Pitort"
+		]
+	},
+	"swb_inverse_label_default": "$1 de"
 }
