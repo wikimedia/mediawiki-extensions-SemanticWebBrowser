@@ -14,5 +14,6 @@
 	"swb_browse_no_outgoing": "Esta página no tiene propiedades.",
 	"swb_browse_no_incoming": "No hay propiedades que enlacen a esta página.",
 	"swb_inverse_label_property": "Etiqueta de propiedad inversa",
-	"swb_inverse_label_default": "$1 de"
+	"swb_inverse_label_default": "$1 de",
+	"swb_browse_error": "No se pudieron cargar los datos semánticos en Semantic Web Browser debido a un error."
 }
