@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"SandroHc"
+			"SandroHc",
+			"Vitorvicentevalente"
 		]
 	},
+	"swb_browse_article": "Insira o nome da página para começar a navegação semântica a partir de.",
 	"swb_browse_go": "Ir",
+	"swb_browse_show_incoming": "mostrar propriedades de entrada que liguem aqui",
+	"swb_browse_hide_incoming": "ocultar propriedades de entrada que liguem aqui",
+	"swb_browse_no_outgoing": "Esta página não tem propriedades.",
+	"swb_browse_no_incoming": "Não há propriedades ligadas a esta página.",
 	"swb_inverse_label_default": "$1 de"
 }
