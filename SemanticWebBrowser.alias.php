@@ -35,6 +35,11 @@ $specialPageAliases['gsw'] = array(
 	'BrowseSW' => array( 'Wiki_duresueche' ),
 );
 
+/** Upper Sorbian (hornjoserbsce) */
+$specialPageAliases['hsb'] = array(
+	'BrowseSW' => array( 'Semantiski_web_přepytać' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'BrowseSW' => array( '위키찾아보기' ),
