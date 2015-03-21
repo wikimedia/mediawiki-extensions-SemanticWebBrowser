@@ -39,9 +39,6 @@ $wgAutoloadClasses['SWBInfolink']               = $swbgIP . 'includes/SWB_Infoli
 // Data values
 $wgAutoloadClasses['SWBResolvableUriValue']     = $swbgIP . 'includes/datavalues/SWBResolvableUriValue.php';
 
-// SWB Search
-$wgAutoloadClasses['SWBSearch']                 = $swbgIP . 'includes/SWB_Search.php';
-
 $wgHooks['smwInitProperties'][] = 'registerPropertyTypes';
 
 
