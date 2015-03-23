@@ -3,11 +3,12 @@
 		"authors": [
 			"Benedikt Kämpgen",
 			"SPQRobin",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
 	"browsesw": "{{doc-special|BrowseSW}}",
-	"swb_desc": "{{desc|name=Semantic Web Browser|url=http://www.mediawiki.org/wiki/Extension:SemanticWebBrowser}}",
+	"swb_desc": "{{desc|name=Semantic Web Browser|url=https://www.mediawiki.org/wiki/Extension:SemanticWebBrowser}}",
 	"swb_browse_article": "Text above \"go\" window",
 	"swb_browse_go": "Title of button \"go\".\n{{Identical|Go}}",
 	"swb_browse_show_incoming": "Title of properties",
