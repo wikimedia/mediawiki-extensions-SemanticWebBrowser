@@ -20,7 +20,7 @@ $specialPageAliases['ar'] = array(
 	'BrowseSW' => array( 'تصفح_سو', 'تصفح_ويب_دلالي' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'BrowseSW' => array( 'تصفح_سو', 'تصفح_ويب_سيمانتيك' ),
 );
