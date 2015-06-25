@@ -20,7 +20,7 @@ require_once dirname( __FILE__ ) . '/SWB_Settings.php';
  */
 // include for toolbox
 global $swbgToolboxBrowseSemWeb, $wgHooks, $wgAutoloadClasses, $swbgIP,
-       $wgFooterIcons, $wgExtensionFunctions, $wgSpecialPageGroups,
+       $wgFooterIcons, $wgExtensionFunctions,
        $wgExtensionMessagesFiles, $wgSpecialPages,
        $smwgNamespace, $wgServer, $wgAPIModules, $wgMessagesDirs;
 
@@ -31,7 +31,6 @@ $wgExtensionMessagesFiles['SemanticWebBrowserAlias']  = $swbgIP . 'SemanticWebBr
 // Special Page for Browse Wiki
 $wgAutoloadClasses['SWBSpecialBrowseSW']      = $swbgIP . 'specials/SearchTriple/SWB_SpecialBrowseSW.php';
 $wgSpecialPages['BrowseSW']                   = 'SWBSpecialBrowseSW';
-$wgSpecialPageGroups['BrowseSW']              = 'smw_group';
 
 // InfoLink
 $wgAutoloadClasses['SWBInfolink']               = $swbgIP . 'includes/SWB_Infolink.php';

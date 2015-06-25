@@ -1164,5 +1164,8 @@ END;
 		echo $name."='".$displaytext."' "."<br />";
 	}
 
+	protected function getGroupName() {
+		return 'smw_group';
+	}
 }
 
