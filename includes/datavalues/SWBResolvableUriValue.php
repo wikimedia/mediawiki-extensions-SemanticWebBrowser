@@ -36,7 +36,7 @@ class SWBResolvableUriValue extends SMWDataValue {
 
 		$scheme = $hierpart = $query = $fragment = '';
 		if ( $value == '' ) { // do not accept empty strings
-			$this->addError( wfMsgForContent( 'smw_emptystring' ) );
+			$this->addError( wfMessage( 'smw_emptystring' )->inContentLanguage()->text() );
 			$this->m_dataitem = new SMWDIUri( 'http', '//example.com', '', '', $this->m_typeid ); // define data item to have some value
 			return;
 		}
@@ -48,11 +48,11 @@ class SWBResolvableUriValue extends SMWDataValue {
 			$parts[0] = 'http';
 		}
 		// check against blacklist
-		$uri_blacklist = explode( "\n", wfMsgForContent( 'smw_uri_blacklist' ) );
+		$uri_blacklist = explode( "\n", wfMessage( 'smw_uri_blacklist' )->inContentLanguage()->text() );
 		foreach ( $uri_blacklist as $uri ) {
 			$uri = trim( $uri );
 			if ( $uri == mb_substr( $value, 0, mb_strlen( $uri ) ) ) { // disallowed URI!
-				$this->addError( wfMsgForContent( 'smw_baduri', $value ) );
+				$this->addError( wfMessage( 'smw_baduri', $value )->inContentLanguage()->text() );
 				$this->m_dataitem = new SMWDIUri( 'http', '//example.com', '', '', $this->m_typeid ); // define data item to have some value
 				return;
 			}
@@ -86,7 +86,7 @@ class SWBResolvableUriValue extends SMWDataValue {
 			SWBSpecialBrowseSW:: debug( $this->m_typeid, "typeid" );
 			$this->m_dataitem = new SMWDIUri( $scheme, $hierpart, $query, $fragment, $this->m_typeid );
 		} catch ( SMWDataItemException $e ) {
-			$this->addError( wfMsgForContent( 'smw_baduri', $this->m_wikitext ) );
+			$this->addError( wfMessage( 'smw_baduri', $this->m_wikitext )->inContentLanguage()->text() );
 			$this->m_dataitem = new SMWDIUri( 'http', '//example.com', '', '', $this->m_typeid ); // define data item to have some value
 		}
 	}
