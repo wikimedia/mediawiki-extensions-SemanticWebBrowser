@@ -1,3 +1,16 @@
+== SWB- 2017_08_02 ==
+* removed I18n php shim
+* provided COPYING file and license information
+
+== SWB- 2016_01_03 ==
+* Replace wfMsg* calls
+
+== SWB- 2014_04_03 ==
+* Fix global name to $wgMessagesDirs
+
+== SWB- 2014_04_01 ==
+* Migrate to JSON i18n
+
 == SWB- 2013_12_16 ==
 * bug fixed: mapping from predicate to Property-page works properly now
 

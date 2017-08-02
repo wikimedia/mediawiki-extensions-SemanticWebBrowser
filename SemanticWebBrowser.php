@@ -24,24 +24,24 @@ global $swbgToolboxBrowseSemWeb, $wgHooks, $wgAutoloadClasses, $swbgIP,
        $wgExtensionMessagesFiles, $wgSpecialPages,
        $smwgNamespace, $wgServer, $wgAPIModules, $wgMessagesDirs;
 
+// Internationalization
 $wgMessagesDirs['SemanticWebBrowser'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['SemanticWebBrowser'] = $swbgIP . 'SemanticWebBrowser.i18n.php';
-$wgExtensionMessagesFiles['SemanticWebBrowserAlias']  = $swbgIP . 'SemanticWebBrowser.alias.php';
+$wgExtensionMessagesFiles['SemanticWebBrowserAlias'] = __DIR__ . '/SemanticWebBrowser.alias.php';
 
 // Special Page for Browse Wiki
-$wgAutoloadClasses['SWBSpecialBrowseSW']      = $swbgIP . 'specials/SearchTriple/SWB_SpecialBrowseSW.php';
-$wgSpecialPages['BrowseSW']                   = 'SWBSpecialBrowseSW';
+$wgAutoloadClasses['SWBSpecialBrowseSW'] = $swbgIP . 'specials/SearchTriple/SWB_SpecialBrowseSW.php';
+$wgSpecialPages['BrowseSW'] = 'SWBSpecialBrowseSW';
 
 // InfoLink
-$wgAutoloadClasses['SWBInfolink']               = $swbgIP . 'includes/SWB_Infolink.php';
+$wgAutoloadClasses['SWBInfolink'] = $swbgIP . 'includes/SWB_Infolink.php';
 
 // Data values
-$wgAutoloadClasses['SWBResolvableUriValue']     = $swbgIP . 'includes/datavalues/SWBResolvableUriValue.php';
+$wgAutoloadClasses['SWBResolvableUriValue'] = $swbgIP . 'includes/datavalues/SWBResolvableUriValue.php';
 
+// Hooks used
 $wgHooks['smwInitProperties'][] = 'registerPropertyTypes';
 
-
-
+// And action ...
 function registerPropertyTypes() {
 	SMWDataValueFactory::registerDatatype( "_rur", "SWBResolvableUriValue",
 		SMWDataItem::TYPE_URI, $label = false );
@@ -67,4 +67,3 @@ function swbfShowBrowseSemWeb( $skintemplate ) {
 
 	return true;
 }
-
