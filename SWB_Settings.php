@@ -29,7 +29,7 @@ $wgExtensionCredits['semantic'][] = array(
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Semantic_Web_Browser',
 	'descriptionmsg' => 'swb_desc',
-	'license-name' => 'GPL-3.0+'
+	'license-name' => 'GPL-3.0-or-later'
 );
 
 /**
