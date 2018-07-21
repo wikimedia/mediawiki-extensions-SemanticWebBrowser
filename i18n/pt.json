@@ -6,8 +6,8 @@
 			"Hamilton Abreu"
 		]
 	},
-	"browsesw": "Navegar na wiki e na web semântica",
-	"swb_desc": "Acrescenta uma página especial [[Special:BrowseSW|Navegar na wiki e na web semântica]]",
+	"browsesw": "Navegar na wiki e na Internet semântica",
+	"swb_desc": "Acrescenta uma página especial [[Special:BrowseSW|Navegar na wiki e na Internet semântica]]",
 	"swb_browse_article": "Insira o nome da página a partir da qual deseja começar a navegação semântica.",
 	"swb_browse_go": "Continuar",
 	"swb_browse_show_incoming": "mostrar propriedades de entrada que liguem aqui",
