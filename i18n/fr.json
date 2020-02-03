@@ -4,7 +4,8 @@
 			"Gomoko",
 			"Jean-Frédéric",
 			"Verdy p",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Derugon"
 		]
 	},
 	"browsesw": "Naviguer sur le wiki et le web sémantique",
@@ -17,5 +18,6 @@
 	"swb_browse_no_incoming": "Aucune propriété ne pointe vers cette page.",
 	"swb_inverse_label_property": "Libellé de la propriété inverse",
 	"swb_inverse_label_default": "$1 de",
+	"swb_browse_more": "…",
 	"swb_browse_error": "Les données sémantiques n’ont pu être chargées avec le Navigateur Web Sémantique en raison d’une erreur :"
 }
