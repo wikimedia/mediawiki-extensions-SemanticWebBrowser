@@ -5,8 +5,8 @@
 			"BaRaN6161 TURK"
 		]
 	},
-	"browsesw": "Wiki ve Semantic Web'e Göz Atın",
-	"swb_desc": "[[Special:BrowseSW|Wiki ve Semantic Web'e Göz Atma]] özel bir sayfa ekler",
+	"browsesw": "Viki ve Semantic Web'e Göz Atın",
+	"swb_desc": "[[Special:BrowseSW|Viki ve Semantic Web'e Göz Atma]] özel bir sayfa ekler",
 	"swb_browse_article": "Anlamsal olarak göz atmaya başlamak için sayfanın adını girin.",
 	"swb_browse_go": "Git",
 	"swb_browse_show_incoming": "buraya bağlanan gelen özellikleri göster",
