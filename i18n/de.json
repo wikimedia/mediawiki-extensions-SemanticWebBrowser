@@ -5,7 +5,7 @@
 		]
 	},
 	"browsesw": "Das Wiki sowie das Semantische Web durchsuchen",
-	"swb_desc": "Ergänzt eine [[Special:BrowseSW|Spezialseite]] zum Durchsuchen des Wikis sowie des Semantischen Webs",
+	"swb_desc": "Erweitert das Wiki um eine [[Special:BrowseSW|Spezialseite]] zum Durchsuchen des Wikis sowie des Semantischen Webs",
 	"swb_browse_article": "Bitte den Namen einer Seite angeben, um mit dem Suchen zu beginnen.",
 	"swb_browse_go": "Los",
 	"swb_browse_show_incoming": "zeige Attribute die hierhin verlinken",
