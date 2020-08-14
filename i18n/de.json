@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kghbln"
+			"Kghbln",
+			"Umherirrender"
 		]
 	},
 	"browsesw": "Das Wiki sowie das Semantische Web durchsuchen",
@@ -14,5 +15,6 @@
 	"swb_browse_no_incoming": "Keine Attribute verlinken auf diese Seite.",
 	"swb_inverse_label_property": "Bezeichnung des inversen Attributs",
 	"swb_inverse_label_default": "$1 von",
+	"swb_browse_more": "…",
 	"swb_browse_error": "Die semantische Informationen konnten aufgrund eines Fehlers des „Semantic Web Browsers“ nicht geladen werden:"
 }
