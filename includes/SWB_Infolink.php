@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  *
  * @file SWB_Infolink
@@ -14,12 +16,10 @@ class SWBInfolink extends SMWInfolink {
 	}
 
 	public static function newBrowsingLink( $caption, $titleText, $style = 'smwbrowse' ) {
-		global $wgContLang;
-
 		return new SWBInfolink(
 			true,
 			$caption,
-			$wgContLang->getNsText( NS_SPECIAL ) . ':BrowseSW',
+			MediaWikiServices::getInstance()->getContentLanguage()->getNsText( NS_SPECIAL ) . ':BrowseSW',
 			$style,
 			array( $titleText )
 		);

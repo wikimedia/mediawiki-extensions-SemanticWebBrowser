@@ -9,6 +9,8 @@
 * 
 */
 
+use MediaWiki\MediaWikiServices;
+
 /**
 * A factbox view on one specific article, showing all the Semantic data about it
 *@author Anna Kantorovitch
@@ -101,9 +103,9 @@ class SWBSpecialBrowseSW extends SpecialPage {
 	* @return string  A HTML string with the factbox
 	*/
 	private function displayBrowse() {
-		global $wgContLang, $wgOut;
+		global $wgOut;
 		$html = "\n";
-		$leftside = !( $wgContLang->isRTL() ); // For right to left languages, all is mirrored
+		$leftside = !( MediaWikiServices::getInstance()->getContentLanguage()->isRTL() ); // For right to left languages, all is mirrored
 		
 		
 		if ( $this->subject->isValid() && (count( $this->subject->getErrors())==0) ) {
