@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"TK-999"
+			"TK-999",
+			"Tacsipacsi"
 		]
 	},
 	"browsesw": "A wiki és a szemantikus Web böngészése",
-	"swb_desc": "Létrehozza egy, [[Special:BrowseSW|a wiki és a szemantikus Web böngészését]] szolgáló speciális lapot.",
+	"swb_desc": "Létrehoz egy, [[Special:BrowseSW|a wiki és a szemantikus web böngészését]] szolgáló speciális lapot.",
 	"swb_browse_article": "Írd be a szemantikus böngészés kezdőpontjául szolgáló lap címét.",
 	"swb_browse_go": "Mehet",
 	"swb_browse_show_incoming": "Ide hivatkozó bejövő tulajdonságok megjelenítése",
