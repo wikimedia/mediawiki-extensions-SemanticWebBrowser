@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Andriykopanytsia"
+			"Andriykopanytsia",
+			"DDPAT"
 		]
 	},
 	"browsesw": "Перегляд вікі в семантичного вебу",
@@ -14,5 +15,6 @@
 	"swb_browse_no_incoming": "Немає властивостей, які посилаються на цю сторінку.",
 	"swb_inverse_label_property": "Мітка оберненої властивості",
 	"swb_inverse_label_default": "$1 з",
+	"swb_browse_more": "...",
 	"swb_browse_error": "Семантичні дані не можуть бути завантажені з використанням семантичного веб-переглядача через помилку:"
 }
