@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Armando-Martin",
-			"Fitoschido"
+			"Fitoschido",
+			"Jakeukalane"
 		]
 	},
-	"browsesw": "Explorar el wiki y la web semántica",
-	"swb_desc": "Añade una página especial [[Special:BrowseSW|Explorar el Wiki y la Web semántica]]",
+	"browsesw": "Explorar la wiki y la web semántica",
+	"swb_desc": "Añade una página especial [[Special:BrowseSW|Explorar la wiki y la web semántica]]",
 	"swb_browse_article": "Escribe el nombre de la página para empezar la navegación semántica.",
 	"swb_browse_go": "Ir",
 	"swb_browse_show_incoming": "Mostrar las propiedades entrantes que enlazan aquí",
