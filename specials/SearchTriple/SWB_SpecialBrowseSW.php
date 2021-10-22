@@ -1104,7 +1104,7 @@ class SWBSpecialBrowseSW extends SpecialPage {
 	* MW API to fetch suggestions.
 	*/
 	private static function addAutoComplete(){
-		SMWOutputs::requireResource( 'jquery.ui.autocomplete' );
+		SMWOutputs::requireResource( 'jquery.ui' );
 
 		$javascript_autocomplete_text = <<<END
 		<script type="text/javascript">
@@ -1128,7 +1128,7 @@ END;
 	* Creates the JS needed for 
 	*/
 	private static function setStartMenu(){
-		SMWOutputs::requireResource( 'jquery.ui.autocomplete' );
+		SMWOutputs::requireResource( 'jquery.ui' );
 
 		$javascript_autocomplete_text = <<<END
 		<script type="text/javascript">
