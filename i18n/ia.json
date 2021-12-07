@@ -13,5 +13,6 @@
 	"swb_browse_no_outgoing": "Iste pagina non ha proprietates.",
 	"swb_browse_no_incoming": "Nulle proprietate ha un ligamine a iste pagina.",
 	"swb_inverse_label_property": "Etiquetta de proprietate inverse",
-	"swb_inverse_label_default": "$1 de"
+	"swb_inverse_label_default": "$1 de",
+	"swb_browse_error": "Le datos semantic non poteva esser cargate con le Navigator Web Semantic a causa de un error:"
 }
