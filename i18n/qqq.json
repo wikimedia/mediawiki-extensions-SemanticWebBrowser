@@ -17,6 +17,6 @@
 	"swb_browse_no_incoming": "Used in the table in [[Special:BrowseSW]] if there are no results.\n\nSee also:\n* {{msg-mw|Swb browse no outgoing}}",
 	"swb_inverse_label_property": "Name of a special property",
 	"swb_inverse_label_default": "Inverse label default, $1 is a place marker",
-	"swb_browse_more": "Browse more details",
+	"swb_browse_more": "{{optional}}\nBrowse more details",
 	"swb_browse_error": "Unused at this time."
 }
