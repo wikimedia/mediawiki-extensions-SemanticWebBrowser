@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Armin1392",
+			"Beginneruser",
 			"Ebraminio",
 			"Mjbmr"
 		]
 	},
 	"browsesw": "جستجوس ویکی و وب معنایی",
-	"swb_desc": "افزودن یک صفحه ویژه [[Special:BrowseSW|مرور ویکی و وب معنایی]]",
+	"swb_desc": "افزودن یک صفحهٔ ویژه [[Special:BrowseSW|مرور ویکی و وب معنایی]]",
 	"swb_browse_article": "نام صفحه‌ را برای شروع مرورگر معنایی، وارد کنید.",
 	"swb_browse_go": "برو",
 	"swb_browse_show_incoming": "نمایش خاصیت‌های ورودی که در اینجا پیوند می‌شوند",
