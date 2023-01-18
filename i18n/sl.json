@@ -4,5 +4,15 @@
 			"Eleassar"
 		]
 	},
-	"swb_browse_go": "Pojdi"
+	"browsesw": "Brskanje po vikiju in semantičnem spletu",
+	"swb_desc": "Doda posebno stran [[Special:BrowseSW|Prebrskaj viki in semantični splet]]",
+	"swb_browse_article": "Vpišite ime strani za začetek semantičnega brskanja.",
+	"swb_browse_go": "Pojdi",
+	"swb_browse_show_incoming": "pokaži dohodne lastnosti, ki se povezujejo sem",
+	"swb_browse_hide_incoming": "skrij dohodne lastnosti, ki se povezujejo sem",
+	"swb_browse_no_outgoing": "Ta stran nima lastnosti.",
+	"swb_browse_no_incoming": "Na to stran se ne povezuje nobena lastnost.",
+	"swb_inverse_label_property": "Oznaka nasprotne lastnosti.",
+	"swb_inverse_label_default": "$1 od",
+	"swb_browse_error": "Semantičnih podatkov ni bilo mogoče naložiti s semantičnim spletnim brskalnikom zaradi napake:"
 }
