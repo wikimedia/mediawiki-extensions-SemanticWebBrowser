@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"browsesw": "עיון בוויקי ובווב סמנטי",
+	"swb_desc": "הוספת הדף המיוחד [[Special:BrowseSW|עיון בוויקי ובווב סמנטי]]",
+	"swb_browse_article": "יש להזין את שם הדף שיש להתחיל ממנו את הגלישה הסמנטית.",
+	"swb_browse_go": "מעבר",
+	"swb_browse_show_incoming": "הצגת מאפיינים נכנסים שמקשרים לכאן",
+	"swb_browse_hide_incoming": "הסתרת מאפיינים נכנסים שמקשרים לכאן",
+	"swb_browse_no_outgoing": "לדף זה אין מאפיינים.",
+	"swb_browse_no_incoming": "אין מאפיינים שמקשרים לדף הזה.",
+	"swb_inverse_label_property": "תווית מאפיין הפוכה.",
+	"swb_inverse_label_default": "$1 מתוך",
+	"swb_browse_error": "לא היה אפשר לטעון נתונים סמנטיים עם דפדפן וב סמנטי עקב שגיאה:"
+}
