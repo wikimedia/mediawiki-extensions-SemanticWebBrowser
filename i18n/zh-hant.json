@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
-			"LNDDYL"
+			"LNDDYL",
+			"Winston Sung"
 		]
 	},
-	"browsesw": "瀏覽 Wiki 與語意網",
+	"browsesw": "瀏覽 wiki 與語意網",
 	"swb_desc": "添加特殊頁面[[Special:BrowseSW|瀏覽 wiki 與語意網]]",
 	"swb_browse_article": "輸入語意瀏覽的起始頁面名稱。",
 	"swb_browse_go": "轉到",
