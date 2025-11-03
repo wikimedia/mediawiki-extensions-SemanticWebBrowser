@@ -10,6 +10,7 @@
 */
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Html\Html;
 
 /**
 * A factbox view on one specific article, showing all the Semantic data about it
