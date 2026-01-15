@@ -1,9 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"browsesw": "ويکي او سېمانټيک جال سپړل",
-	"swb_browse_go": "ورځه"
+	"swb_desc": "د [[Special:BrowseSW|ويکي سپړل او وېب ماناپوهنې]] ځانگړی مخ ورگډوي",
+	"swb_browse_article": "د هغه مخ نوم وليکئ چې له هغې څخه د ماناپوهنې لټون پيلوئ.",
+	"swb_browse_go": "ورځه",
+	"swb_browse_show_incoming": "هغه راتلونکې ځانگړنې ښودل چې دلته تړونی لري",
+	"swb_browse_hide_incoming": "هغه راتلونکې ځانگړنې پټول چې دلته تړونی لري",
+	"swb_browse_no_outgoing": "دا مخ هېڅ ځانگړنه نه لري.",
+	"swb_browse_no_incoming": "دې مخ سره هېڅ ځانگړنې تړونی نه لري.",
+	"swb_inverse_label_property": "د ځانگړنې سرچپه نښکه",
+	"swb_inverse_label_default": "$1 د",
+	"swb_browse_error": "د يوې تېروتنې له امله د ماناپوهنې وېب لټون سره د ماناپوهنې اومتوک نشي بارېدای."
 }
