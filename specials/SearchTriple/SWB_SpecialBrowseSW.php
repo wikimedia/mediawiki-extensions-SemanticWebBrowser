@@ -29,7 +29,7 @@ global $swbgIP;
 set_include_path($swbgIP . 'lib/');
 require_once ($swbgIP . 'lib/EasyRdf.php');
 
-class SWBSpecialBrowseSW extends SpecialPage {
+class SWBSpecialBrowseSW extends IncludableSpecialPage {
 	/// int How  many incoming values should be asked for
 	static public $incomingvaluescount = 8;
 	/// int  How many incoming properties should be asked for
@@ -51,7 +51,7 @@ class SWBSpecialBrowseSW extends SpecialPage {
 	*/
 	public function __construct() {
 		global $smwgBrowseShowAll;
-		parent::__construct( 'BrowseSW', '', true, false, 'default', true );
+		parent::__construct( 'BrowseSW' );
 
 		if ( $smwgBrowseShowAll ) {
 			SWBSpecialBrowseSW::$incomingvaluescount = 21;
