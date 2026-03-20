@@ -90,7 +90,11 @@ class EasyRdf_Parser_RdfXml extends EasyRdf_Parser
             xml_set_element_handler($parser, 'startElementHandler', 'endElementHandler');
             xml_set_character_data_handler($parser, 'cdataHandler');
             xml_set_start_namespace_decl_handler($parser, 'newNamespaceHandler');
-            xml_set_object($parser, $this);
+            if ( PHP_VERSION_ID < 80000 ) {
+            	// MW <1.42
+            	// phpcs:ignore MediaWiki.Usage.ForbiddenFunctions.xml_set_object
+	            xml_set_object($parser, $this);
+            }
             $this->_xmlParser = $parser;
         }
     }
@@ -766,7 +770,11 @@ class EasyRdf_Parser_RdfXml extends EasyRdf_Parser
             );
         }
 
-        xml_parser_free($this->_xmlParser);
+        if ( PHP_VERSION_ID < 80000 ) {
+        	// MW <1.42
+        	// phpcs:ignore MediaWiki.Usage.ForbiddenFunctions.xml_parser_free
+	        xml_parser_free($this->_xmlParser);
+        }
 
         return $this->_tripleCount;
     }
