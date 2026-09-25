@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"browsesw": "Baadh Wiki-ga & Shabakadda Semantic",
+	"swb_desc": "Waxay ku dartaa bog gaar ah [[Special:BrowseSW|Baadh Wiki-ga & Shabakadda Semantic]]",
+	"swb_browse_article": "Geli magaca bogga laga bilaabayo baadhista Semantic.",
+	"swb_browse_go": "Ugu dub",
+	"swb_browse_show_incoming": "Muuji hantida soo galaysa ee halkan xiriirisa",
+	"swb_browse_hide_incoming": "Qari hantida soo galaysa ee halkan xiriirisa",
+	"swb_browse_no_outgoing": "Boggan ma laha hanti.",
+	"swb_browse_no_incoming": "Ma jiraan hanti ku xiriirisa boggan.",
+	"swb_inverse_label_property": "Summadda hantida lidka ah",
+	"swb_inverse_label_default": "$1 ee",
+	"swb_browse_error": "Xogta Semantic lagama soo rari karin iyadoo la adeegsanayo Biraawsarka Shabakadda Semantic sababo la xiriira khalad:"
+}
