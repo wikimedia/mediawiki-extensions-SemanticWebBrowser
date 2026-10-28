@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"browsesw": "Prehliadať wiki a sémantický web",
+	"swb_desc": "Pridáva špeciálnu stránku [[Special:BrowseSW|Prehliadať wiki a sémantický web]]",
+	"swb_browse_article": "Zadajte názov stránky, od ktorej sa má začať sémantické prehliadanie.",
+	"swb_browse_go": "Prejsť",
+	"swb_browse_show_incoming": "zobraziť prichádzajúce vlastnosti, ktoré sem odkazujú",
+	"swb_browse_hide_incoming": "skryť prichádzajúce vlastnosti, ktoré sem odkazujú",
+	"swb_browse_no_outgoing": "Táto stránka nemá žiadne vlastnosti.",
+	"swb_browse_no_incoming": "Na túto stránku neodkazujú žiadne vlastnosti.",
+	"swb_inverse_label_property": "Označenie inverznej vlastnosti",
+	"swb_inverse_label_default": "$1 (inverzne)",
+	"swb_browse_error": "Sémantické údaje sa nepodarilo načítať pomocou Semantic Web Browser pre chybu:"
+}
